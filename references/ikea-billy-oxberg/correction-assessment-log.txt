@@ -1,0 +1,30 @@
+{
+  "raw": {
+    "exactTitles": 0,
+    "books": 27,
+    "characterEditErrors": 120,
+    "referenceCharacters": 120,
+    "characterErrorRate": 1.0
+  },
+  "geometry": {
+    "exactTitles": 0,
+    "books": 27,
+    "characterEditErrors": 117,
+    "referenceCharacters": 120,
+    "characterErrorRate": 0.975
+  },
+  "deconvolution": {
+    "exactTitles": 0,
+    "books": 27,
+    "characterEditErrors": 591,
+    "referenceCharacters": 120,
+    "characterErrorRate": 4.925
+  },
+  "reference": {
+    "exactTitles": 10,
+    "books": 27,
+    "characterEditErrors": 42,
+    "referenceCharacters": 120,
+    "characterErrorRate": 0.35
+  }
+}

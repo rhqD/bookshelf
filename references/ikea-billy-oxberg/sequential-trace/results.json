@@ -1,0 +1,977 @@
+{
+  "status": "FAILED: this two-cylinder trial does not yield clear full-width inventory images",
+  "prescription": "data/optics/final-prescription.json",
+  "parameters": {
+    "scale": 0.3,
+    "stop": 0.8,
+    "rear_z": 5,
+    "rear_r": 15.678896953577594,
+    "rear_t": 2,
+    "front_z": 61.20557408337169,
+    "front_r": 60,
+    "front_t": 8,
+    "rear_width": 44,
+    "rear_height": 14,
+    "front_width": 250,
+    "front_height": 32,
+    "film_gap": 6.968984331167182
+  },
+  "filmZMm": -17.00281433116718,
+  "camera": {
+    "sensorMm": [
+      6.4,
+      3.6
+    ],
+    "nativePixels": [
+      4000,
+      2250
+    ],
+    "pixelPitchUm": 1.6,
+    "sensor": "unbound monochrome CMOS design target; not a claimed commercial product",
+    "nominalObjectiveEflMm": 3.0,
+    "designWavelengthNm": 587.6,
+    "objective": "PBRT Muller fisheye prescription uniformly scaled by 0.30; numeric glass indices from source",
+    "glassIndices": "specified at one design wavelength; objective glass trade names and dispersion not supplied by PBRT"
+  },
+  "rayModel": {
+    "refractions": 15,
+    "stopPlanes": 1,
+    "mirrorReflections": 1,
+    "exact": [
+      "spherical intersections",
+      "circular cylindrical intersections",
+      "vector Snell refraction",
+      "Fresnel transmission",
+      "finite apertures and real stop",
+      "finite M1",
+      "book/cabinet occlusion"
+    ],
+    "noImposedFov": true,
+    "noImageSqueeze": true,
+    "excluded": [
+      "full diffraction wave propagation",
+      "broadband chromatic aberration",
+      "sensor shot/read noise",
+      "surface errors and tolerances",
+      "multi-reflection ghost/stray paths"
+    ]
+  },
+  "sampledAreaCoverage": {
+    "halfSamples": {
+      "anyRayCoverage": 0.6137306415929203,
+      "atLeast8Rays": 0.6113108407079646,
+      "reachedCells": 8877,
+      "targetCells": 14464
+    },
+    "fullSamples": {
+      "anyRayCoverage": 0.6139380530973452,
+      "atLeast8Rays": 0.6120713495575221,
+      "reachedCells": 8880,
+      "targetCells": 14464
+    }
+  },
+  "coverageMethod": "5 × 2.5 mm cells whose centres lie on the 27 example spines; a reached cell has at least one traced ray; sampling estimate, not a proof that all zero cells are impossible; blurred spill is counted only as geometric reach",
+  "qualityMethod": "2048 rear-pupil samples per sensor location; reciprocity-based object-plane footprint D80 and geometric MTF at 0.5 cycle/mm; not an OCR success rate or full diffractive MTF",
+  "fields": [
+    {
+      "sensorMm": [
+        -2.4,
+        -0.3
+      ],
+      "sensorPixel": [
+        500.0000000000002,
+        937.5
+      ],
+      "objectCentroidMm": [
+        0.0,
+        0.0
+      ],
+      "validRays": 0,
+      "rays": 2048,
+      "objectD80Mm": null,
+      "objectRmsMm": null,
+      "geometricMtfAtHalfCyclePerMmX": 0.0,
+      "geometricMtfAtHalfCyclePerMmY": 0.0,
+      "nominal7mmCharacterPixels": null,
+      "localEquivalentD80Pixels": null,
+      "inBookEnvelope": true,
+      "relativeThroughput": 0.0
+    },
+    {
+      "sensorMm": [
+        -1.6,
+        -0.3
+      ],
+      "sensorPixel": [
+        1000.0,
+        937.5
+      ],
+      "objectCentroidMm": [
+        282.1790539483368,
+        29.166387848326124
+      ],
+      "validRays": 1346,
+      "rays": 2048,
+      "objectD80Mm": 38.21968048544512,
+      "objectRmsMm": 13.971154706040455,
+      "geometricMtfAtHalfCyclePerMmX": 0.0027614834833533893,
+      "geometricMtfAtHalfCyclePerMmY": 0.008766424244701325,
+      "nominal7mmCharacterPixels": 15.236009812763447,
+      "localEquivalentD80Pixels": 23.153323738507456,
+      "inBookEnvelope": true,
+      "relativeThroughput": 0.9273642841011637
+    },
+    {
+      "sensorMm": [
+        -0.8,
+        -0.3
+      ],
+      "sensorPixel": [
+        1500.0,
+        937.5
+      ],
+      "objectCentroidMm": [
+        103.68117323967019,
+        130.71178431282095
+      ],
+      "validRays": 1299,
+      "rays": 2048,
+      "objectD80Mm": 5.876897677294936,
+      "objectRmsMm": 2.156985507772385,
+      "geometricMtfAtHalfCyclePerMmX": 0.052126040429709454,
+      "geometricMtfAtHalfCyclePerMmY": 0.016528956632413737,
+      "nominal7mmCharacterPixels": 61.55519162405308,
+      "localEquivalentD80Pixels": 44.89932326339295,
+      "inBookEnvelope": true,
+      "relativeThroughput": 0.9836332144245941
+    },
+    {
+      "sensorMm": [
+        0.0,
+        -0.3
+      ],
+      "sensorPixel": [
+        2000.0,
+        937.5
+      ],
+      "objectCentroidMm": [
+        0.0003412356064156642,
+        146.87737666904692
+      ],
+      "validRays": 1322,
+      "rays": 2048,
+      "objectD80Mm": 2.7787724279455666,
+      "objectRmsMm": 1.0199226240180734,
+      "geometricMtfAtHalfCyclePerMmX": 0.9721000082564526,
+      "geometricMtfAtHalfCyclePerMmY": 0.061984859462537525,
+      "nominal7mmCharacterPixels": 596.6622430715693,
+      "localEquivalentD80Pixels": 236.7764401557458,
+      "inBookEnvelope": true,
+      "relativeThroughput": 0.9896822882617189
+    },
+    {
+      "sensorMm": [
+        0.8,
+        -0.3
+      ],
+      "sensorPixel": [
+        2500.0,
+        937.5
+      ],
+      "objectCentroidMm": [
+        -103.6862961672565,
+        130.6951279155884
+      ],
+      "validRays": 1299,
+      "rays": 2048,
+      "objectD80Mm": 5.907165125518365,
+      "objectRmsMm": 2.1569930472085237,
+      "geometricMtfAtHalfCyclePerMmX": 0.05611498739584089,
+      "geometricMtfAtHalfCyclePerMmY": 0.012646695711408359,
+      "nominal7mmCharacterPixels": 61.64506029733554,
+      "localEquivalentD80Pixels": 44.92031350880481,
+      "inBookEnvelope": true,
+      "relativeThroughput": 0.9836323574385479
+    },
+    {
+      "sensorMm": [
+        1.6,
+        -0.3
+      ],
+      "sensorPixel": [
+        3000.0,
+        937.5
+      ],
+      "objectCentroidMm": [
+        -282.2835140978163,
+        28.990565227557198
+      ],
+      "validRays": 1346,
+      "rays": 2048,
+      "objectD80Mm": 38.17301677302973,
+      "objectRmsMm": 13.985249912594739,
+      "geometricMtfAtHalfCyclePerMmX": 0.011793182495462615,
+      "geometricMtfAtHalfCyclePerMmY": 0.005538245465138272,
+      "nominal7mmCharacterPixels": 15.184305038718435,
+      "localEquivalentD80Pixels": 23.225490347293718,
+      "inBookEnvelope": true,
+      "relativeThroughput": 0.9273573052801175
+    },
+    {
+      "sensorMm": [
+        2.4,
+        -0.3
+      ],
+      "sensorPixel": [
+        3500.0,
+        937.5
+      ],
+      "objectCentroidMm": [
+        0.0,
+        0.0
+      ],
+      "validRays": 0,
+      "rays": 2048,
+      "objectD80Mm": null,
+      "objectRmsMm": null,
+      "geometricMtfAtHalfCyclePerMmX": 0.0,
+      "geometricMtfAtHalfCyclePerMmY": 0.0,
+      "nominal7mmCharacterPixels": null,
+      "localEquivalentD80Pixels": null,
+      "inBookEnvelope": true,
+      "relativeThroughput": 0.0
+    },
+    {
+      "sensorMm": [
+        -2.4,
+        -0.15
+      ],
+      "sensorPixel": [
+        500.0000000000002,
+        1031.25
+      ],
+      "objectCentroidMm": [
+        626.4333061523508,
+        -108.28409936829418
+      ],
+      "validRays": 1307,
+      "rays": 2048,
+      "objectD80Mm": 171.43916866838416,
+      "objectRmsMm": 63.864762101525756,
+      "geometricMtfAtHalfCyclePerMmX": 0.005095485999185432,
+      "geometricMtfAtHalfCyclePerMmY": 0.027055828724794548,
+      "nominal7mmCharacterPixels": 11.479916291827323,
+      "localEquivalentD80Pixels": 21.505181089207962,
+      "inBookEnvelope": false,
+      "relativeThroughput": 0.8306490759489228
+    },
+    {
+      "sensorMm": [
+        -1.6,
+        -0.15
+      ],
+      "sensorPixel": [
+        1000.0,
+        1031.25
+      ],
+      "objectCentroidMm": [
+        240.41795868014128,
+        100.16941483227704
+      ],
+      "validRays": 1346,
+      "rays": 2048,
+      "objectD80Mm": 12.957166869443705,
+      "objectRmsMm": 4.724730208835865,
+      "geometricMtfAtHalfCyclePerMmX": 0.028967326555356852,
+      "geometricMtfAtHalfCyclePerMmY": 0.00908301720516309,
+      "nominal7mmCharacterPixels": 26.8640126401173,
+      "localEquivalentD80Pixels": 29.038752995472404,
+      "inBookEnvelope": true,
+      "relativeThroughput": 0.9328881618461892
+    },
+    {
+      "sensorMm": [
+        -0.8,
+        -0.15
+      ],
+      "sensorPixel": [
+        1500.0,
+        1031.25
+      ],
+      "objectCentroidMm": [
+        102.98976905970184,
+        132.57006176029685
+      ],
+      "validRays": 1271,
+      "rays": 2048,
+      "objectD80Mm": 2.236363856878109,
+      "objectRmsMm": 0.8169761494074868,
+      "geometricMtfAtHalfCyclePerMmX": 0.731757837500772,
+      "geometricMtfAtHalfCyclePerMmY": 0.11955501775891304,
+      "nominal7mmCharacterPixels": 135.08517340279263,
+      "localEquivalentD80Pixels": 39.50866479454391,
+      "inBookEnvelope": true,
+      "relativeThroughput": 0.980044896498658
+    },
+    {
+      "sensorMm": [
+        0.0,
+        -0.15
+      ],
+      "sensorPixel": [
+        2000.0,
+        1031.25
+      ],
+      "objectCentroidMm": [
+        -0.00034704652101242623,
+        139.26351223822834
+      ],
+      "validRays": 1264,
+      "rays": 2048,
+      "objectD80Mm": 0.6260707343436047,
+      "objectRmsMm": 0.2342611171326078,
+      "geometricMtfAtHalfCyclePerMmX": 0.9703831234361016,
+      "geometricMtfAtHalfCyclePerMmY": 0.7809246628949474,
+      "nominal7mmCharacterPixels": 53.176702533448534,
+      "localEquivalentD80Pixels": 4.617847793717509,
+      "inBookEnvelope": true,
+      "relativeThroughput": 0.992976455668932
+    },
+    {
+      "sensorMm": [
+        0.8,
+        -0.15
+      ],
+      "sensorPixel": [
+        2500.0,
+        1031.25
+      ],
+      "objectCentroidMm": [
+        -102.99007477708224,
+        132.56910779996417
+      ],
+      "validRays": 1271,
+      "rays": 2048,
+      "objectD80Mm": 2.237516244732753,
+      "objectRmsMm": 0.8170895793936462,
+      "geometricMtfAtHalfCyclePerMmX": 0.7307281699800223,
+      "geometricMtfAtHalfCyclePerMmY": 0.12154565322648156,
+      "nominal7mmCharacterPixels": 135.116298792607,
+      "localEquivalentD80Pixels": 39.50555107827194,
+      "inBookEnvelope": true,
+      "relativeThroughput": 0.9800448657798059
+    },
+    {
+      "sensorMm": [
+        1.6,
+        -0.15
+      ],
+      "sensorPixel": [
+        3000.0,
+        1031.25
+      ],
+      "objectCentroidMm": [
+        -240.43450213919732,
+        100.1415742297563
+      ],
+      "validRays": 1346,
+      "rays": 2048,
+      "objectD80Mm": 12.931975286457579,
+      "objectRmsMm": 4.726041753316553,
+      "geometricMtfAtHalfCyclePerMmX": 0.03435204485286274,
+      "geometricMtfAtHalfCyclePerMmY": 0.009928290853274497,
+      "nominal7mmCharacterPixels": 27.017632645896807,
+      "localEquivalentD80Pixels": 28.907795192641192,
+      "inBookEnvelope": true,
+      "relativeThroughput": 0.9328871299176694
+    },
+    {
+      "sensorMm": [
+        2.4,
+        -0.15
+      ],
+      "sensorPixel": [
+        3500.0,
+        1031.25
+      ],
+      "objectCentroidMm": [
+        -626.4922030837479,
+        -108.34293588402103
+      ],
+      "validRays": 1307,
+      "rays": 2048,
+      "objectD80Mm": 171.58601402313394,
+      "objectRmsMm": 63.9105364616787,
+      "geometricMtfAtHalfCyclePerMmX": 0.016724857797120816,
+      "geometricMtfAtHalfCyclePerMmY": 0.01612196535325672,
+      "nominal7mmCharacterPixels": 11.481239541762964,
+      "localEquivalentD80Pixels": 21.42042588139441,
+      "inBookEnvelope": false,
+      "relativeThroughput": 0.8306479418329054
+    },
+    {
+      "sensorMm": [
+        -2.4,
+        0.0
+      ],
+      "sensorPixel": [
+        500.0000000000002,
+        1125.0
+      ],
+      "objectCentroidMm": [
+        391.3579453827191,
+        124.64613033537495
+      ],
+      "validRays": 1308,
+      "rays": 2048,
+      "objectD80Mm": 37.141152145774974,
+      "objectRmsMm": 13.559988670098782,
+      "geometricMtfAtHalfCyclePerMmX": 0.0033562174209530505,
+      "geometricMtfAtHalfCyclePerMmY": 0.008950826673472917,
+      "nominal7mmCharacterPixels": 18.13157099587997,
+      "localEquivalentD80Pixels": 22.641445573889,
+      "inBookEnvelope": false,
+      "relativeThroughput": 0.836752647858237
+    },
+    {
+      "sensorMm": [
+        -1.6,
+        0.0
+      ],
+      "sensorPixel": [
+        1000.0,
+        1125.0
+      ],
+      "objectCentroidMm": [
+        225.95198293719204,
+        124.98218129388702
+      ],
+      "validRays": 1337,
+      "rays": 2048,
+      "objectD80Mm": 7.799507007004799,
+      "objectRmsMm": 2.831353714263402,
+      "geometricMtfAtHalfCyclePerMmX": 0.06394332735158642,
+      "geometricMtfAtHalfCyclePerMmY": 0.026769677890933617,
+      "nominal7mmCharacterPixels": 38.6686362591,
+      "localEquivalentD80Pixels": 34.460305388612674,
+      "inBookEnvelope": true,
+      "relativeThroughput": 0.9351867524308901
+    },
+    {
+      "sensorMm": [
+        -0.8,
+        0.0
+      ],
+      "sensorPixel": [
+        1500.0,
+        1125.0
+      ],
+      "objectCentroidMm": [
+        104.9434768967721,
+        124.9960031865477
+      ],
+      "validRays": 1276,
+      "rays": 2048,
+      "objectD80Mm": 1.4389723975315958,
+      "objectRmsMm": 0.5309227859254716,
+      "geometricMtfAtHalfCyclePerMmX": 0.8637177117339063,
+      "geometricMtfAtHalfCyclePerMmY": 0.1885086164183739,
+      "nominal7mmCharacterPixels": 76.67855536116873,
+      "localEquivalentD80Pixels": 15.149839151909045,
+      "inBookEnvelope": true,
+      "relativeThroughput": 0.9810766421099739
+    },
+    {
+      "sensorMm": [
+        0.0,
+        0.0
+      ],
+      "sensorPixel": [
+        2000.0,
+        1125.0
+      ],
+      "objectCentroidMm": [
+        -0.00025127207909214877,
+        124.99906926642186
+      ],
+      "validRays": 1332,
+      "rays": 2048,
+      "objectD80Mm": 0.30668863976477434,
+      "objectRmsMm": 0.10800676318409691,
+      "geometricMtfAtHalfCyclePerMmX": 0.9650497952682652,
+      "geometricMtfAtHalfCyclePerMmY": 0.9783649980358899,
+      "nominal7mmCharacterPixels": 43.77274063102049,
+      "localEquivalentD80Pixels": 1.6873821650876004,
+      "inBookEnvelope": true,
+      "relativeThroughput": 1.0
+    },
+    {
+      "sensorMm": [
+        0.8,
+        0.0
+      ],
+      "sensorPixel": [
+        2500.0,
+        1125.0
+      ],
+      "objectCentroidMm": [
+        -104.94312473825696,
+        124.99733307647476
+      ],
+      "validRays": 1276,
+      "rays": 2048,
+      "objectD80Mm": 1.4391757253421134,
+      "objectRmsMm": 0.5310748278392787,
+      "geometricMtfAtHalfCyclePerMmX": 0.8633307539073231,
+      "geometricMtfAtHalfCyclePerMmY": 0.18889475494221797,
+      "nominal7mmCharacterPixels": 76.73537875340438,
+      "localEquivalentD80Pixels": 15.100192302422927,
+      "inBookEnvelope": true,
+      "relativeThroughput": 0.9810766421099739
+    },
+    {
+      "sensorMm": [
+        1.6,
+        0.0
+      ],
+      "sensorPixel": [
+        3000.0,
+        1125.0
+      ],
+      "objectCentroidMm": [
+        -225.96950384514216,
+        124.95152017391436
+      ],
+      "validRays": 1337,
+      "rays": 2048,
+      "objectD80Mm": 7.79051501722281,
+      "objectRmsMm": 2.831265822313674,
+      "geometricMtfAtHalfCyclePerMmX": 0.061327191473041394,
+      "geometricMtfAtHalfCyclePerMmY": 0.027883134669898692,
+      "nominal7mmCharacterPixels": 38.16922127776025,
+      "localEquivalentD80Pixels": 34.41345866633817,
+      "inBookEnvelope": true,
+      "relativeThroughput": 0.9351867524308901
+    },
+    {
+      "sensorMm": [
+        2.4,
+        0.0
+      ],
+      "sensorPixel": [
+        3500.0,
+        1125.0
+      ],
+      "objectCentroidMm": [
+        -391.3737632054772,
+        124.62991122172946
+      ],
+      "validRays": 1308,
+      "rays": 2048,
+      "objectD80Mm": 37.28063007780463,
+      "objectRmsMm": 13.557384261957887,
+      "geometricMtfAtHalfCyclePerMmX": 0.004605954745659879,
+      "geometricMtfAtHalfCyclePerMmY": 0.005677901140438194,
+      "nominal7mmCharacterPixels": 18.012696509023495,
+      "localEquivalentD80Pixels": 22.681273435804602,
+      "inBookEnvelope": false,
+      "relativeThroughput": 0.836752647858237
+    },
+    {
+      "sensorMm": [
+        -2.4,
+        0.15
+      ],
+      "sensorPixel": [
+        500.0000000000002,
+        1218.75
+      ],
+      "objectCentroidMm": [
+        312.4458653143751,
+        206.39750036432244
+      ],
+      "validRays": 1307,
+      "rays": 2048,
+      "objectD80Mm": 21.626741668153894,
+      "objectRmsMm": 7.892147156854944,
+      "geometricMtfAtHalfCyclePerMmX": 0.010171765478012997,
+      "geometricMtfAtHalfCyclePerMmY": 0.006743767891140439,
+      "nominal7mmCharacterPixels": 20.569161242403492,
+      "localEquivalentD80Pixels": 22.25264131690658,
+      "inBookEnvelope": true,
+      "relativeThroughput": 0.8306479418329054
+    },
+    {
+      "sensorMm": [
+        -1.6,
+        0.15
+      ],
+      "sensorPixel": [
+        1000.0,
+        1218.75
+      ],
+      "objectCentroidMm": [
+        215.6757831405223,
+        143.42886620889874
+      ],
+      "validRays": 1346,
+      "rays": 2048,
+      "objectD80Mm": 7.66513336448871,
+      "objectRmsMm": 2.781063675389365,
+      "geometricMtfAtHalfCyclePerMmX": 0.07161370034867577,
+      "geometricMtfAtHalfCyclePerMmY": 0.02914939735084496,
+      "nominal7mmCharacterPixels": 30.246579463827217,
+      "localEquivalentD80Pixels": 30.19386755447688,
+      "inBookEnvelope": true,
+      "relativeThroughput": 0.9328871299176694
+    },
+    {
+      "sensorMm": [
+        -0.8,
+        0.15
+      ],
+      "sensorPixel": [
+        1500.0,
+        1218.75
+      ],
+      "objectCentroidMm": [
+        106.81960573710339,
+        118.12762439368258
+      ],
+      "validRays": 1271,
+      "rays": 2048,
+      "objectD80Mm": 2.3099616228188853,
+      "objectRmsMm": 0.8408739640243332,
+      "geometricMtfAtHalfCyclePerMmX": 0.7695472091168621,
+      "geometricMtfAtHalfCyclePerMmY": 0.12377611631797568,
+      "nominal7mmCharacterPixels": 172.23878961183496,
+      "localEquivalentD80Pixels": 56.59123642021408,
+      "inBookEnvelope": true,
+      "relativeThroughput": 0.9800448657798059
+    },
+    {
+      "sensorMm": [
+        0.0,
+        0.15
+      ],
+      "sensorPixel": [
+        2000.0,
+        1218.75
+      ],
+      "objectCentroidMm": [
+        0.000392541956744833,
+        111.44818162957333
+      ],
+      "validRays": 1264,
+      "rays": 2048,
+      "objectD80Mm": 1.0131996576673552,
+      "objectRmsMm": 0.37694529030475915,
+      "geometricMtfAtHalfCyclePerMmX": 0.9613273961032652,
+      "geometricMtfAtHalfCyclePerMmY": 0.47816294220710437,
+      "nominal7mmCharacterPixels": 61.19498020713042,
+      "localEquivalentD80Pixels": 8.776790606238729,
+      "inBookEnvelope": true,
+      "relativeThroughput": 0.992976455668932
+    },
+    {
+      "sensorMm": [
+        0.8,
+        0.15
+      ],
+      "sensorPixel": [
+        2500.0,
+        1218.75
+      ],
+      "objectCentroidMm": [
+        -106.81982035164083,
+        118.12662384878543
+      ],
+      "validRays": 1271,
+      "rays": 2048,
+      "objectD80Mm": 2.294323277823014,
+      "objectRmsMm": 0.841347064641516,
+      "geometricMtfAtHalfCyclePerMmX": 0.7685044677387517,
+      "geometricMtfAtHalfCyclePerMmY": 0.12232172146756297,
+      "nominal7mmCharacterPixels": 172.29394931066957,
+      "localEquivalentD80Pixels": 56.23417692000556,
+      "inBookEnvelope": true,
+      "relativeThroughput": 0.980044896498658
+    },
+    {
+      "sensorMm": [
+        1.6,
+        0.15
+      ],
+      "sensorPixel": [
+        3000.0,
+        1218.75
+      ],
+      "objectCentroidMm": [
+        -215.68478942666118,
+        143.41213830156917
+      ],
+      "validRays": 1346,
+      "rays": 2048,
+      "objectD80Mm": 7.633718339313485,
+      "objectRmsMm": 2.7817226499140006,
+      "geometricMtfAtHalfCyclePerMmX": 0.0676182598764159,
+      "geometricMtfAtHalfCyclePerMmY": 0.03137601490604095,
+      "nominal7mmCharacterPixels": 30.374512386000738,
+      "localEquivalentD80Pixels": 30.093619263885227,
+      "inBookEnvelope": true,
+      "relativeThroughput": 0.9328881618461892
+    },
+    {
+      "sensorMm": [
+        2.4,
+        0.15
+      ],
+      "sensorPixel": [
+        3500.0,
+        1218.75
+      ],
+      "objectCentroidMm": [
+        -312.45195280935417,
+        206.3906854677142
+      ],
+      "validRays": 1307,
+      "rays": 2048,
+      "objectD80Mm": 21.73182825334545,
+      "objectRmsMm": 7.885606906402026,
+      "geometricMtfAtHalfCyclePerMmX": 0.004608235837915332,
+      "geometricMtfAtHalfCyclePerMmY": 0.00367590624464636,
+      "nominal7mmCharacterPixels": 20.623122238386134,
+      "localEquivalentD80Pixels": 22.286963887873515,
+      "inBookEnvelope": true,
+      "relativeThroughput": 0.8306490759489228
+    },
+    {
+      "sensorMm": [
+        -2.4,
+        0.3
+      ],
+      "sensorPixel": [
+        500.0000000000002,
+        1312.5
+      ],
+      "objectCentroidMm": [
+        259.82956772952605,
+        266.66777004232557
+      ],
+      "validRays": 360,
+      "rays": 2048,
+      "objectD80Mm": 6.8527081857828245,
+      "objectRmsMm": 2.5123265515593927,
+      "geometricMtfAtHalfCyclePerMmX": 0.058085412261929675,
+      "geometricMtfAtHalfCyclePerMmY": 0.0569770149335968,
+      "nominal7mmCharacterPixels": 23.561738210879025,
+      "localEquivalentD80Pixels": 16.283015046799537,
+      "inBookEnvelope": false,
+      "relativeThroughput": 0.22388959181882484
+    },
+    {
+      "sensorMm": [
+        -1.6,
+        0.3
+      ],
+      "sensorPixel": [
+        1000.0,
+        1312.5
+      ],
+      "objectCentroidMm": [
+        201.26981974598047,
+        170.47007129052838
+      ],
+      "validRays": 1346,
+      "rays": 2048,
+      "objectD80Mm": 10.1029918745215,
+      "objectRmsMm": 3.696548536495592,
+      "geometricMtfAtHalfCyclePerMmX": 0.021149669895743278,
+      "geometricMtfAtHalfCyclePerMmY": 0.015172078812457891,
+      "nominal7mmCharacterPixels": 19.971409855928187,
+      "localEquivalentD80Pixels": 23.96159615648194,
+      "inBookEnvelope": true,
+      "relativeThroughput": 0.9273573052801175
+    },
+    {
+      "sensorMm": [
+        -0.8,
+        0.3
+      ],
+      "sensorPixel": [
+        1500.0,
+        1312.5
+      ],
+      "objectCentroidMm": [
+        106.36849047195523,
+        120.56979733165626
+      ],
+      "validRays": 1299,
+      "rays": 2048,
+      "objectD80Mm": 4.769493863312666,
+      "objectRmsMm": 1.7490712053594433,
+      "geometricMtfAtHalfCyclePerMmX": 0.33473028979542513,
+      "geometricMtfAtHalfCyclePerMmY": 0.017270419793198,
+      "nominal7mmCharacterPixels": 60.13626387320096,
+      "localEquivalentD80Pixels": 42.33020264240365,
+      "inBookEnvelope": true,
+      "relativeThroughput": 0.9836323574385479
+    },
+    {
+      "sensorMm": [
+        0.0,
+        0.3
+      ],
+      "sensorPixel": [
+        2000.0,
+        1312.5
+      ],
+      "objectCentroidMm": [
+        -0.000405300406802795,
+        106.21260282251356
+      ],
+      "validRays": 1322,
+      "rays": 2048,
+      "objectD80Mm": 3.2730294102154995,
+      "objectRmsMm": 1.1968357069311413,
+      "geometricMtfAtHalfCyclePerMmX": 0.9587658520508624,
+      "geometricMtfAtHalfCyclePerMmY": 0.03816983904792645,
+      "nominal7mmCharacterPixels": 317.9785374678687,
+      "localEquivalentD80Pixels": 148.43352283117252,
+      "inBookEnvelope": true,
+      "relativeThroughput": 0.9896822882617189
+    },
+    {
+      "sensorMm": [
+        0.8,
+        0.3
+      ],
+      "sensorPixel": [
+        2500.0,
+        1312.5
+      ],
+      "objectCentroidMm": [
+        -106.37138934011317,
+        120.55611886061682
+      ],
+      "validRays": 1299,
+      "rays": 2048,
+      "objectD80Mm": 4.818687104794542,
+      "objectRmsMm": 1.7500750997945942,
+      "geometricMtfAtHalfCyclePerMmX": 0.3337023240798856,
+      "geometricMtfAtHalfCyclePerMmY": 0.020414344127598086,
+      "nominal7mmCharacterPixels": 60.179157094389616,
+      "localEquivalentD80Pixels": 42.68136157893599,
+      "inBookEnvelope": true,
+      "relativeThroughput": 0.9836332144245941
+    },
+    {
+      "sensorMm": [
+        1.6,
+        0.3
+      ],
+      "sensorPixel": [
+        3000.0,
+        1312.5
+      ],
+      "objectCentroidMm": [
+        -201.29432942526984,
+        170.42213197839806
+      ],
+      "validRays": 1346,
+      "rays": 2048,
+      "objectD80Mm": 10.145677472350943,
+      "objectRmsMm": 3.6956335353039194,
+      "geometricMtfAtHalfCyclePerMmX": 0.02295285302834906,
+      "geometricMtfAtHalfCyclePerMmY": 0.00929071413762817,
+      "nominal7mmCharacterPixels": 19.898448975671414,
+      "localEquivalentD80Pixels": 24.094703441643613,
+      "inBookEnvelope": true,
+      "relativeThroughput": 0.9273642841011637
+    },
+    {
+      "sensorMm": [
+        2.4,
+        0.3
+      ],
+      "sensorPixel": [
+        3500.0,
+        1312.5
+      ],
+      "objectCentroidMm": [
+        -259.83152507853646,
+        266.66478660693343
+      ],
+      "validRays": 360,
+      "rays": 2048,
+      "objectD80Mm": 6.811575331693492,
+      "objectRmsMm": 2.5154771605514243,
+      "geometricMtfAtHalfCyclePerMmX": 0.0644508001789156,
+      "geometricMtfAtHalfCyclePerMmY": 0.05755419982915366,
+      "nominal7mmCharacterPixels": 22.88191914088804,
+      "localEquivalentD80Pixels": 15.888654398501458,
+      "inBookEnvelope": false,
+      "relativeThroughput": 0.2238744930030151
+    }
+  ],
+  "diffractionReference": {
+    "wavelengthNm": 587.6,
+    "centralImageNA": [
+      0.05436514758298208,
+      0.05490145163079253
+    ],
+    "approximateImageFNumber": [
+      9.197068751387238,
+      9.10722731636417
+    ],
+    "idealCircularPupilAiryFirstZeroDiameterUm": [
+      13.186242139888945,
+      13.057432521473231
+    ],
+    "status": "reference diffraction-limit estimate only; not added as a fabricated fixed blur kernel"
+  },
+  "verification": {
+    "snellError": 5.551115123125783e-17,
+    "totalInternalReflection": true,
+    "independentRayComparisons": 5000,
+    "comparedValidRays": 99,
+    "numpyVsNumbaPositionErrorMm": 1.5631940186722204e-13,
+    "roundTripPositionErrorMm": 9.381384558082573e-15,
+    "cylinderTangentialMomentumError": 2.7755575615628914e-17,
+    "note": "Numerical and physical invariants; no commercial optical-code cross-validation"
+  },
+  "render": {
+    "width": 4000,
+    "height": 2250,
+    "samplesPerPixel": 128,
+    "rays": 1152000000,
+    "lensPass": 146966443,
+    "spineHits": 112616174,
+    "displayGain": 294.11710769678115,
+    "elapsedSeconds": 71.40927267074585,
+    "optics": "exact sphere/cylinder intersections, vector Snell refraction, Fresnel, finite real stop, finite M1",
+    "scene": "analytic cabinet and book boxes, synthetic monochrome printed textures, diffuse direct + ambient lighting",
+    "excluded": [
+      "diffraction wave propagation",
+      "broadband chromatic aberration",
+      "sensor shot/read noise",
+      "surface manufacturing errors",
+      "stray multi-reflection ghosts"
+    ],
+    "imageCorrection": "horizontal digital mirror flip only; no image squeeze, perspective rectification, denoise or sharpen"
+  },
+  "sources": [
+    {
+      "title": "PBRT realistic camera method",
+      "url": "https://pbr-book.org/3ed-2018/Camera_Models/Realistic_Cameras"
+    },
+    {
+      "title": "PBRT fisheye prescription",
+      "url": "https://github.com/mmp/pbrt-v4-scenes/blob/master/lenses/fisheye.10mm.dat"
+    },
+    {
+      "title": "SCHOTT N-BK7 datasheet",
+      "url": "https://media.schott.com/api/public/content/41e799d0bf874807a0bb8e702fbb75b5?v=54856406"
+    }
+  ]
+}

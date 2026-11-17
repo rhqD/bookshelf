@@ -1,0 +1,36 @@
+{
+  "layout": {
+    "camera": [
+      0.0,
+      271.92236793470823,
+      189.7572664723291
+    ],
+    "pitch_deg": 2.1476928844255183,
+    "mirror": [
+      0.0,
+      282.6455570088554,
+      20.58641999619632
+    ],
+    "tilt_deg": 37.86297060212626,
+    "mirror_size": [
+      580.0,
+      52.0
+    ],
+    "sensor_mm": [
+      6.4,
+      3.6
+    ],
+    "sensor_pixels": [
+      4000,
+      2250
+    ]
+  },
+  "film_z": -16.984036811026645,
+  "focusRmsUm": 0.32048459820393205,
+  "objective": 0.5321605073490866,
+  "calls": 4455,
+  "seconds": 97.5889458656311,
+  "scope": "symmetric X=0 camera, mirror axis parallel shelf width; same lens/sensor/stop and 580x52 mirror",
+  "constraints": "mirror/chassis at least 5mm above 250mm books, 4mm from roof/front/back envelope; full 760x250 spine rectangle, 1mm mirror and 10px sensor sampling margins",
+  "method": "seeded differential evolution + bounded Nelder Mead; each density from exact sequential chief-ray finite-difference Jacobian; numerical candidate, not proof of global optimum"
+}

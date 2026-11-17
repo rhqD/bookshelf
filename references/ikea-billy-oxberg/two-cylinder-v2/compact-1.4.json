@@ -1,0 +1,292 @@
+{
+  "target": 1.4,
+  "variables": [
+    399.99981394121573,
+    83.85711399317235,
+    18.636488946347875,
+    -0.9499999999999241,
+    -0.949999988724418,
+    6.882022151950482,
+    4.958207797301812e-10,
+    1.0000000143533986e-10,
+    -0.007597743236153589
+  ],
+  "layout": {
+    "camera": [
+      0.0,
+      271.9223679348082,
+      189.7572664728249
+    ],
+    "pitch_deg": 2.1400951411893647,
+    "mirror": [
+      0.0,
+      282.6455570088554,
+      20.58641999619632
+    ],
+    "tilt_deg": 37.86297060212626,
+    "mirror_size": [
+      580.0,
+      52.0
+    ],
+    "sensor_mm": [
+      6.4,
+      3.6
+    ],
+    "sensor_pixels": [
+      4000,
+      2250
+    ]
+  },
+  "film_z": -16.91585215195048,
+  "surfaces": [
+    {
+      "name": "CAM12",
+      "z": -10.033829999999998,
+      "radius": 4.5121199999999995,
+      "n_before": 1.0,
+      "n_after": 1.673,
+      "kind": "sphere",
+      "diameter": 1.9559999999999997,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM11",
+      "z": -9.751829999999998,
+      "radius": 6.711779999999999,
+      "n_before": 1.673,
+      "n_after": 1.0,
+      "kind": "sphere",
+      "diameter": 1.788,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM10",
+      "z": -9.733019999999998,
+      "radius": 4.286519999999999,
+      "n_before": 1.0,
+      "n_after": 1.805,
+      "kind": "sphere",
+      "diameter": 1.788,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM09",
+      "z": -9.4416,
+      "radius": 1.56795,
+      "n_before": 1.805,
+      "n_after": 1.517,
+      "kind": "sphere",
+      "diameter": 1.752,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM08",
+      "z": -8.783579999999999,
+      "radius": -8.83623,
+      "n_before": 1.517,
+      "n_after": 1.0,
+      "kind": "sphere",
+      "diameter": 1.788,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "STOP",
+      "z": -8.35869,
+      "radius": -0.0,
+      "n_before": 1.0,
+      "n_after": 1.0,
+      "kind": "plane",
+      "diameter": 0.8,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM06",
+      "z": -6.74184,
+      "radius": -13.160309999999999,
+      "n_before": 1.0,
+      "n_after": 1.654,
+      "kind": "sphere",
+      "diameter": 2.442,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM05",
+      "z": -6.140219999999999,
+      "radius": -2.8764600000000002,
+      "n_before": 1.654,
+      "n_after": 1.0,
+      "kind": "sphere",
+      "diameter": 2.706,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM04",
+      "z": -2.7937499999999997,
+      "radius": -2.5004699999999995,
+      "n_before": 1.0,
+      "n_after": 1.639,
+      "kind": "sphere",
+      "diameter": 4.026,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM03",
+      "z": -2.4741299999999997,
+      "radius": -22.56057,
+      "n_before": 1.639,
+      "n_after": 1.0,
+      "kind": "sphere",
+      "diameter": 5.34,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM02",
+      "z": -0.25005,
+      "radius": -3.41793,
+      "n_before": 1.0,
+      "n_after": 1.62,
+      "kind": "sphere",
+      "diameter": 6.204,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM01",
+      "z": -0.0,
+      "radius": -9.06747,
+      "n_before": 1.62,
+      "n_after": 1.0,
+      "kind": "sphere",
+      "diameter": 9.102,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "L1-1",
+      "z": 8.0,
+      "radius": -205.12810971345192,
+      "n_before": 1,
+      "n_after": 1.5168,
+      "kind": "cylinder",
+      "diameter": 0,
+      "width": 120.0,
+      "height": 14.0
+    },
+    {
+      "name": "L1-2",
+      "z": 10.5,
+      "radius": 7999.996278812175,
+      "n_before": 1.5168,
+      "n_after": 1,
+      "kind": "cylinder",
+      "diameter": 0,
+      "width": 120.0,
+      "height": 14.0
+    },
+    {
+      "name": "L2-1",
+      "z": 18.636488946347875,
+      "radius": 1677.1419016484276,
+      "n_before": 1,
+      "n_after": 1.5168,
+      "kind": "cylinder",
+      "diameter": 0,
+      "width": 420.0,
+      "height": 28.0
+    },
+    {
+      "name": "L2-2",
+      "z": 26.636488946347875,
+      "radius": -43.003648450288985,
+      "n_before": 1.5168,
+      "n_after": 1,
+      "kind": "cylinder",
+      "diameter": 0,
+      "width": 420.0,
+      "height": 28.0
+    }
+  ],
+  "parameters": {
+    "scale": 0.3,
+    "stop": 0.8,
+    "film_gap": 6.882022151950483
+  },
+  "wavelength_nm": 587.6,
+  "sensor_mm": [
+    6.4,
+    3.6
+  ],
+  "sensor_pixels": [
+    4000,
+    2250
+  ],
+  "glass": "N-BK7 d-line n=1.51680; camera indices from PBRT research prescription",
+  "sampledCentreVerticalMagnification": 1.38086332264291,
+  "fieldChiefCoverage": 0.9047619047619048,
+  "minPupilFraction": 0.0,
+  "medianGeometricRmsNativePx": 1.9177671760707657,
+  "maxGeometricRmsNativePx": 4.511450069788958,
+  "allFieldRmsNativePx": [
+    2.5259555774521987,
+    1.9177671760707657,
+    1.5611717960578826,
+    1.3752892721498338,
+    1.560407651722262,
+    1.915723282946351,
+    2.5220875801526503,
+    3.4395292398008808,
+    2.2498388303563996,
+    1.585481515608148,
+    1.3400051706195895,
+    1.5852784807488458,
+    2.2496717028208866,
+    3.439522214626083,
+    0.0,
+    4.493237875923089,
+    1.9343683864229164,
+    1.4445370572787046,
+    1.938080046727241,
+    4.511450069788958,
+    0.0
+  ],
+  "allFieldChiefValid": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false
+  ],
+  "mechanicalResidual": 0.0,
+  "note": "new full-field finite-pupil two-singlet trial; no imposed squeeze; not a production optical module",
+  "optimization": "full-field film-to-scene finite-pupil merit; reverse-field screen is diagnostic only",
+  "forwardMerit": 29.65237043762926,
+  "evaluations": 29,
+  "calls": 715,
+  "seconds": 6.98540472984314
+}

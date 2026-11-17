@@ -1,0 +1,79 @@
+{
+  "retrieved_date": "2026-11-17",
+  "timezone": "Asia/Shanghai",
+  "selected_variant": {
+    "width_mm": 800,
+    "depth_mm": 300,
+    "height_mm": 2020,
+    "doors": "two full-glass OXBERG doors",
+    "color": "white (working reference)"
+  },
+  "product_pages": {
+    "international": "https://www.ikea.com/fi/en/p/billy-oxberg-bookcase-white-s69017828/",
+    "china": "https://www.ikea.cn/cn/zh/p/billy-bi-li-oxberg-ao-ke-bo-shu-jia-bai-se-s09184486/"
+  },
+  "metadata_endpoints": {
+    "69017828": "https://web-api.ikea.com/fi/en/rotera/data/model/69017828/",
+    "00263850": "https://web-api.ikea.com/fi/en/rotera/data/model/00263850/",
+    "90275617": "https://web-api.ikea.com/fi/en/rotera/data/model/90275617/"
+  },
+  "files": [
+    {
+      "path": "assets/ikea/billy-oxberg/billy-oxberg-80x30x202-white-original.glb",
+      "url": "https://web-api.ikea.com/fi/en/rotera/static/models/69017828-mini.glb",
+      "kind": "original-model",
+      "bytes": 117460,
+      "sha256": "fd2e92fe9ad71f15e00c264aef1f566d7f10fae12af0ae90f7f103fdbbde3b58"
+    },
+    {
+      "path": "assets/ikea/billy-oxberg/billy-bookcase-00263850-original.glb",
+      "url": "https://web-api.ikea.com/fi/en/rotera/static/models/00263850-mini.glb",
+      "kind": "original-model",
+      "bytes": 103548,
+      "sha256": "344392b4317316cc2047ef6536225b5819178fbb601102175272e4ee0e3fed6c"
+    },
+    {
+      "path": "assets/ikea/billy-oxberg/oxberg-glass-door-90275617-original.glb",
+      "url": "https://web-api.ikea.com/fi/en/rotera/static/models/90275617-mini.glb",
+      "kind": "original-model",
+      "bytes": 180160,
+      "sha256": "88f1438dc196aeab3a255d9a5d6d6a9339ee1bf16338a6b252cc1770c2e5fa4b"
+    },
+    {
+      "path": "references/ikea-billy-oxberg/billy-bookcase-assembly.pdf",
+      "url": "https://resources.ikea.cn/cn/zh/assembly_instructions/billy-bi-li-shu-jia-bai-se__AA-2175344-3-2.pdf",
+      "kind": "china-assembly-instructions",
+      "bytes": 1766191,
+      "sha256": "b155397e0c27a4b4c7b831713bb4857f57a45a6cda5c2678a6611860936cf2c0"
+    },
+    {
+      "path": "references/ikea-billy-oxberg/oxberg-glass-door-assembly.pdf",
+      "url": "https://resources.ikea.cn/cn/zh/assembly_instructions/oxberg-ao-ke-bo-bo-li-gui-men-bai-se__AA-1003271-12-2.pdf",
+      "kind": "china-assembly-instructions",
+      "bytes": 2612659,
+      "sha256": "25ee16e4eeb55e03586cf70e1dcef006b2efb761befe922c732221ad27c71618"
+    },
+    {
+      "path": "references/ikea-billy-oxberg/billy-bookcase-care.pdf",
+      "url": "https://resources.ikea.cn/cn/zh/manuals/billy-bi-li-shu-jia-bai-se__AA-476685-1-2.pdf",
+      "kind": "china-care-instructions",
+      "bytes": 1486627,
+      "sha256": "a4090c97ae1b5c31d0ea95173fa157c147c355aac6b51fda8bf7acf10c952234"
+    },
+    {
+      "path": "references/ikea-billy-oxberg/oxberg-glass-door-care.pdf",
+      "url": "https://resources.ikea.cn/cn/zh/manuals/oxberg-ao-ke-bo-bo-li-gui-men-bai-se__AA-749581-4-2.pdf",
+      "kind": "china-care-instructions",
+      "bytes": 518410,
+      "sha256": "065ffaf375b59e84ed4cb1c5b1e816a3427937ade62bcb72b986d4fc20169abf"
+    },
+    {
+      "path": "references/ikea-billy-oxberg/ikea-product-reference.jpg",
+      "url": "https://file.app.ikea.cn/cn/zh/images/products/billy-bi-li-oxberg-ao-ke-bo-shu-jia-bai-se__1602132_pe1043224_s5.jpg",
+      "kind": "china-product-reference-photo",
+      "bytes": 218439,
+      "sha256": "14d15f113742f9cb169ef2815e6359c8189aaea236280877158a0d5276122a57"
+    }
+  ],
+  "precision_note": "International visualization mesh; China component SKUs differ. Verify hole positions and fabrication dimensions against the actual unit."
+}

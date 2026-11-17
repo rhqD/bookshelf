@@ -1,0 +1,196 @@
+{
+  "parameters": {
+    "scale": 0.3,
+    "stop": 1.3,
+    "rear_z": 5,
+    "rear_r": 15.678896953577594,
+    "rear_t": 2,
+    "front_z": 61.20557408337169,
+    "front_r": 60,
+    "front_t": 8,
+    "rear_width": 44,
+    "rear_height": 14,
+    "front_width": 250,
+    "front_height": 32,
+    "film_gap": 6.968984331167182
+  },
+  "film_z": -17.00281433116718,
+  "surfaces": [
+    {
+      "name": "CAM12",
+      "z": -10.033829999999998,
+      "radius": 4.5121199999999995,
+      "n_before": 1.0,
+      "n_after": 1.673,
+      "kind": "sphere",
+      "diameter": 1.9559999999999997,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM11",
+      "z": -9.751829999999998,
+      "radius": 6.711779999999999,
+      "n_before": 1.673,
+      "n_after": 1.0,
+      "kind": "sphere",
+      "diameter": 1.788,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM10",
+      "z": -9.733019999999998,
+      "radius": 4.286519999999999,
+      "n_before": 1.0,
+      "n_after": 1.805,
+      "kind": "sphere",
+      "diameter": 1.788,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM09",
+      "z": -9.4416,
+      "radius": 1.56795,
+      "n_before": 1.805,
+      "n_after": 1.517,
+      "kind": "sphere",
+      "diameter": 1.752,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM08",
+      "z": -8.783579999999999,
+      "radius": -8.83623,
+      "n_before": 1.517,
+      "n_after": 1.0,
+      "kind": "sphere",
+      "diameter": 1.788,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "STOP",
+      "z": -8.35869,
+      "radius": -0.0,
+      "n_before": 1.0,
+      "n_after": 1.0,
+      "kind": "plane",
+      "diameter": 1.3,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM06",
+      "z": -6.74184,
+      "radius": -13.160309999999999,
+      "n_before": 1.0,
+      "n_after": 1.654,
+      "kind": "sphere",
+      "diameter": 2.442,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM05",
+      "z": -6.140219999999999,
+      "radius": -2.8764600000000002,
+      "n_before": 1.654,
+      "n_after": 1.0,
+      "kind": "sphere",
+      "diameter": 2.706,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM04",
+      "z": -2.7937499999999997,
+      "radius": -2.5004699999999995,
+      "n_before": 1.0,
+      "n_after": 1.639,
+      "kind": "sphere",
+      "diameter": 4.026,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM03",
+      "z": -2.4741299999999997,
+      "radius": -22.56057,
+      "n_before": 1.639,
+      "n_after": 1.0,
+      "kind": "sphere",
+      "diameter": 5.34,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM02",
+      "z": -0.25005,
+      "radius": -3.41793,
+      "n_before": 1.0,
+      "n_after": 1.62,
+      "kind": "sphere",
+      "diameter": 6.204,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM01",
+      "z": -0.0,
+      "radius": -9.06747,
+      "n_before": 1.62,
+      "n_after": 1.0,
+      "kind": "sphere",
+      "diameter": 9.102,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "L1 rear concave",
+      "z": 5,
+      "radius": -15.678896953577594,
+      "n_before": 1,
+      "n_after": 1.5168,
+      "kind": "cylinder",
+      "diameter": 0,
+      "width": 44,
+      "height": 14
+    },
+    {
+      "name": "L1 front concave",
+      "z": 7,
+      "radius": 15.678896953577594,
+      "n_before": 1.5168,
+      "n_after": 1,
+      "kind": "cylinder",
+      "diameter": 0,
+      "width": 44,
+      "height": 14
+    },
+    {
+      "name": "L2 rear convex",
+      "z": 61.20557408337169,
+      "radius": 60,
+      "n_before": 1,
+      "n_after": 1.5168,
+      "kind": "cylinder",
+      "diameter": 0,
+      "width": 250,
+      "height": 32
+    },
+    {
+      "name": "L2 front convex",
+      "z": 69.20557408337169,
+      "radius": -60,
+      "n_before": 1.5168,
+      "n_after": 1,
+      "kind": "cylinder",
+      "diameter": 0,
+      "width": 250,
+      "height": 32
+    }
+  ]
+}

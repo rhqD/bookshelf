@@ -1,0 +1,48 @@
+{
+  "variant": "current camera + M1, no external cylinders",
+  "method": "book-spine-plane inverse ray calibration + bicubic coordinate-map interpolation + bilinear image resampling",
+  "planeShelfZMm": 60,
+  "planeWidthMm": 760,
+  "planeHeightMm": 250,
+  "sourcePixels": [
+    4000,
+    2250
+  ],
+  "outputPixels": [
+    3040,
+    1000
+  ],
+  "outputPixelMm": 0.25,
+  "calibrationGrid": [
+    161,
+    81
+  ],
+  "heldOutChecks": 120,
+  "heldOutRmsErrorNativePixels": 3.2542834772671325e-07,
+  "heldOutMaxErrorNativePixels": 1.8909088166551291e-06,
+  "originalSourceCropPixels": [
+    169,
+    899,
+    3830,
+    1255
+  ],
+  "display": "same display gain and transfer curve as the original; no sharpening, generative fill or reference-texture input",
+  "inputs": [
+    "current-no-cylinders-data.npz linear observation",
+    "current-prescription.json numerical surfaces",
+    "M1 plane",
+    "book geometry only"
+  ],
+  "interpolation": "bilinear intensity interpolation; magnifies existing samples only",
+  "masked": "book tops, gaps and areas outside the defined spine plane",
+  "limitations": [
+    "fixed aligned spine plane Z=60 mm; changed depth/pose requires recalibration",
+    "single chief ray represents each object point; finite-pupil blur is retained in the observed image",
+    "stretching pixels does not increase optical resolution",
+    "synthetic monochrome input, not a real photograph"
+  ],
+  "sourceHashes": {
+    "data/optics/current-prescription.json": "802276f4a54ad031022f7707620e9bf2399e802ce6c5d0effc295081e38fb2bc",
+    "references/ikea-billy-oxberg/sequential-trace/current-no-cylinders-data.npz": "e23b5867bdc5f5f637cd12784d6bbd7c1a64de81074ce14080930bfcf6564c75"
+  }
+}

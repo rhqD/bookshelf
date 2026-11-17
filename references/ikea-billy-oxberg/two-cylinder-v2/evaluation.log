@@ -1,0 +1,6 @@
+MAPPED baseline 13041 / 13041
+METRICS baseline {'sampledRayReach': 1.0, 'chiefReach': 1.0, 'minNativePxPerMmVisible': 0.5371016249171104, 'medianNativePxPerMmVisible': 1.1014863150616523, 'spineSignalVerticalSpan': 0.196} 1.5766645671141657
+MAPPED moderate 12718 / 13041
+METRICS moderate {'sampledRayReach': 0.9968196902654868, 'chiefReach': 0.987076061903194, 'minNativePxPerMmVisible': 0.8248540149699848, 'medianNativePxPerMmVisible': 1.4539340831539211, 'spineSignalVerticalSpan': 0.31422222222222224} 2.0674361691110006
+MAPPED high 11745 / 13041
+METRICS high {'sampledRayReach': 0.968058628318584, 'chiefReach': 0.9238557787290089, 'minNativePxPerMmVisible': 0.19190205522215678, 'medianNativePxPerMmVisible': 2.541698301808391, 'spineSignalVerticalSpan': 0.9257777777777778} 41.70232149562321

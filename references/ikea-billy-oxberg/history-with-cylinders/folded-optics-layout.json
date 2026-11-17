@@ -1,0 +1,195 @@
+{
+  "updated": "2026-11-17",
+  "variant": "top-mirror-with-ideal-anamorphic-target",
+  "units": "mm",
+  "frame": "X right, Y above local shelf, Z inward from cabinet front",
+  "sourceBay": {
+    "floorHeight": 1062,
+    "ceilingHeight": 1390,
+    "frontWorldZ": 120,
+    "note": "Approximate IKEA visualization mesh; validate against physical China unit"
+  },
+  "parameters": {
+    "width": 760,
+    "height": 328,
+    "depth": 260,
+    "cameraY": 280,
+    "cameraZ": 230,
+    "aimY": 295,
+    "aimZ": 20,
+    "mirrorY": 299.1461871009169,
+    "mirrorZ": 23.531496332069093,
+    "m1Length": 580,
+    "m1Width": 52,
+    "mirrorTilt": 40.42254843239384,
+    "hfov": 115,
+    "vfov": 18,
+    "bookDepth": 200,
+    "spineZ": 60,
+    "bookHeight": 250,
+    "sensorAspect": 1.7777777777777777
+  },
+  "camera": {
+    "equivalentEntrancePupil": [
+      0,
+      280,
+      230
+    ],
+    "aim": [
+      0,
+      295,
+      20
+    ],
+    "forward": [
+      0,
+      0.07124704998790964,
+      -0.997458699830735
+    ],
+    "pupilSolved": false
+  },
+  "mirrors": [
+    {
+      "id": "M1",
+      "center": [
+        0,
+        299.1461871009169,
+        23.531496332069093
+      ],
+      "normal": [
+        0,
+        0.6484195499918897,
+        -0.7612831846220665
+      ],
+      "tangent": [
+        0,
+        0.7612831846220665,
+        0.6484195499918897
+      ],
+      "length": 580,
+      "width": 52,
+      "tiltFromVerticalDeg": 40.42254843239384
+    }
+  ],
+  "cylinderGroup": {
+    "prescriptionSolved": false,
+    "curvatureIllustrationOnly": true,
+    "equivalentApertureCheckOnly": true,
+    "spacing": 20,
+    "elements": [
+      {
+        "id": "L1",
+        "distance": 8,
+        "clearWidth": 32,
+        "clearHeight": 12,
+        "housingWidth": 38,
+        "housingHeight": 18,
+        "center": [
+          0,
+          280.5699763999033,
+          222.02033040135413
+        ],
+        "focalLength": null,
+        "radii": null
+      },
+      {
+        "id": "L2",
+        "distance": 28,
+        "clearWidth": 96,
+        "clearHeight": 16,
+        "housingWidth": 102,
+        "housingHeight": 22,
+        "center": [
+          0,
+          281.99491739966146,
+          202.0711564047394
+        ],
+        "focalLength": null,
+        "radii": null
+      }
+    ],
+    "targetHorizontalFov": 115,
+    "targetVerticalFov": 18,
+    "requiredAnamorphicRatio": 5.574715138175133
+  },
+  "chiefPath": {
+    "points": [
+      [
+        0,
+        280,
+        230
+      ],
+      [
+        0,
+        295,
+        19.99999999999997
+      ],
+      [
+        0,
+        125.00000000000006,
+        60
+      ]
+    ],
+    "target": "spine"
+  },
+  "clearances": {
+    "pathLength": 385.17752468000276,
+    "target": "spine",
+    "topClearance": 9.06045009890937,
+    "mirrorBookHeight": 29.35282430074318,
+    "mirrorSpineClearance": 19.609595368141775,
+    "cameraBookClearance": 16.5343075522851,
+    "groupBookClearance": 20.844754076553613,
+    "backClearance": 0,
+    "mirrorSideClearance": 90,
+    "ordinaryVfov": 82.88566833468566,
+    "anamorphicRatio": 5.574715138175133
+  },
+  "sampledCoverage": {
+    "nx": 152,
+    "ny": 100,
+    "books": 27,
+    "sampleCount": 14464,
+    "visibleSamples": 14464,
+    "area": 1,
+    "spinePlaneAnglesDeg": [
+      8.028615119941907,
+      19.351084649966513
+    ],
+    "fullWidthBands": [
+      {
+        "endRow": 87,
+        "low": 0,
+        "high": 220
+      }
+    ],
+    "reasons": {
+      "field": 0,
+      "mirror": 0,
+      "window": 0,
+      "bay": 0,
+      "books": 0,
+      "direction": 0
+    }
+  },
+  "sensorProjection": {
+    "aspect": 1.7777777777777777,
+    "targetVerticalUsage": 0.5149700904517098,
+    "ordinaryVerticalUsage": 0.09237603674584954,
+    "ordinaryVerticalFov": 82.88566833468566,
+    "idealProjectionOnly": true
+  },
+  "removedComponents": [
+    "M2",
+    "M2 side rails",
+    "M2 carriages",
+    "scan controls"
+  ],
+  "limitations": [
+    "Geometric reach under a hypothetical equivalent optical system, not proven cylindrical-lens feasibility or OCR accuracy",
+    "External rays and finite plane mirror solved; internal lens refraction and real entrance pupil unsolved",
+    "Lens curves, apertures, chassis and mounts are placeholders; no optical prescription",
+    "No aberration, MTF, focus, depth-of-field, illumination or glass glare simulation",
+    "Nominal clearances exclude real mirror frame and manufacturing tolerances",
+    "Aligned books only; full-height envelope is used for conservative obstruction checks"
+  ]
+}

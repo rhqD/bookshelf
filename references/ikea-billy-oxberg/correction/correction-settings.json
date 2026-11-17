@@ -1,0 +1,99 @@
+{
+  "method": "space-variant ray-traced Richardson-Lucy / nonnegative Poisson EM, early stopping + masked total-variation proximal steps",
+  "iterations": 80,
+  "tvWeight": 0.004,
+  "tvStepEvery": 8,
+  "quadratureRaysPerWorkingSensorBin": 256,
+  "sensorBinning": "exact 2×2 mean of the saved 4000×2250 linear observation",
+  "workingSensor": [
+    2000,
+    1125
+  ],
+  "objectPlanePixels": [
+    3040,
+    1000
+  ],
+  "objectPixelMm": 0.25,
+  "operatorShape": [
+    606000,
+    3040000
+  ],
+  "nonzeroCoefficients": 55864806,
+  "background": "computed from texture-free cabinet/book-box geometry; foreground title textures never read",
+  "geometry": "piecewise affine unwrap of finite-pupil response centroids; minimum-footprint branch selected on overlaps; same flat-field compensation",
+  "reconstructionInput": [
+    "saved linear sensor observation",
+    "optical surfaces",
+    "book/cabinet geometry",
+    "independent pupil sampling, seed 94183"
+  ],
+  "prohibitedInputsNotUsed": [
+    "clean book textures",
+    "book titles",
+    "clean spine render",
+    "character dictionary",
+    "generative super-resolution"
+  ],
+  "initializationConstant": 0.22827459871768951,
+  "display": "same fixed linear→sRGB curve for both flattened outputs; grey hatching marks missing support",
+  "rawObservation": "original saved noiseless monochrome geometric ray render; this is an optimistic exact-calibration test, not measured camera RAW",
+  "limitations": [
+    "no real shot/read noise",
+    "no calibration error",
+    "no full wave diffraction or color",
+    "finite independent ray quadrature and 0.5 mm object grid",
+    "regularization can sharpen artifacts; pixel detail is not proof of a correct title"
+  ],
+  "relativeAdjointError": 9.534203621796067e-08,
+  "history": [
+    {
+      "iteration": 1,
+      "forwardRmse": 0.017478959634900093,
+      "poissonObjective": 270063.28125
+    },
+    {
+      "iteration": 10,
+      "forwardRmse": 0.006453690584748983,
+      "poissonObjective": 269757.78125
+    },
+    {
+      "iteration": 20,
+      "forwardRmse": 0.0058158449828624725,
+      "poissonObjective": 269747.9375
+    },
+    {
+      "iteration": 30,
+      "forwardRmse": 0.005569418426603079,
+      "poissonObjective": 269744.375
+    },
+    {
+      "iteration": 40,
+      "forwardRmse": 0.00561729958280921,
+      "poissonObjective": 269745.25
+    },
+    {
+      "iteration": 50,
+      "forwardRmse": 0.005463596899062395,
+      "poissonObjective": 269743.0
+    },
+    {
+      "iteration": 60,
+      "forwardRmse": 0.005367539823055267,
+      "poissonObjective": 269741.625
+    },
+    {
+      "iteration": 70,
+      "forwardRmse": 0.005294337868690491,
+      "poissonObjective": 269740.625
+    },
+    {
+      "iteration": 80,
+      "forwardRmse": 0.005411182064563036,
+      "poissonObjective": 269742.375
+    }
+  ],
+  "hashes": {
+    "data/optics/final-prescription.json": "899824422ae207fab239687172b0ce04086cf4efd3cd733cf825218ffb85c1b4",
+    "references/ikea-billy-oxberg/sequential-trace/sensor-data.npz": "3fd15de3331542943f044e2df8c6e9d4e685aef5b57067a7f085111035fc50ab"
+  }
+}

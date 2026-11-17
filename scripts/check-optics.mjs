@@ -1,0 +1,41 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {BASE,CYLINDERS,system,trace,sampleCoverage,installation,chiefPath,ordinaryVerticalFov,projectPoint} from '../viewer/optics.js';
+const norm=a=>{const l=Math.hypot(...a);return a.map(v=>v/l);};
+const sub=(a,b)=>a.map((v,i)=>v-b[i]);
+const dot=(a,b)=>a.reduce((s,v,i)=>s+v*b[i],0);
+const reflect=(v,n)=>v.map((x,i)=>x-2*dot(v,n)*n[i]);
+const close=(a,b,tol=1e-7)=>assert.ok(Math.abs(a-b)<tol,`${a} != ${b}`);
+const s=system();
+for(const x of[-380,0,380])for(const y of[0,125,250]){
+  const p=[x,y,60],r=trace(p,s);assert.ok(r.q1,JSON.stringify(r));
+  close(dot(sub(r.q1,s.mirror),s.n),0);
+  const incoming=norm(sub(r.q1,s.camera)),outgoing=norm(sub(p,r.q1));
+  reflect(incoming,s.n).forEach((v,i)=>close(v,outgoing[i]));
+  close(Math.hypot(...sub(r.q1,s.camera))+Math.hypot(...sub(p,r.q1)),Math.hypot(...sub(p,s.virtualCamera)));
+  for(const l of CYLINDERS){assert.ok(Math.abs(l.distance*r.q1[0]/r.depth)<l.clearWidth/2);}
+}
+assert.equal(trace([250,125,60],system({m1Length:200})).reason,'mirror');
+assert.equal(trace([380,250,60],system({hfov:80})).reason,'field');
+const cp=chiefPath();assert.equal(cp.target,'spine');close(cp.points[2][2],60);assert.ok(cp.points[2][1]>0&&cp.points[2][1]<250);
+const coverage=sampleCoverage(),fit=installation();assert.ok(coverage.ratio>.95);assert.ok(coverage.angles[0]>0&&coverage.angles[1]<90);
+assert.ok(fit.topClearance>4&&fit.mirrorBookHeight>5&&fit.cameraBookClearance>5);
+assert.ok(installation({bookHeight:280}).cameraBookClearance<0);assert.equal(sampleCoverage({bookHeight:300}).ratio,0);
+const ordinary=ordinaryVerticalFov(s),targetPoint=projectPoint([0,250,60],s),ordinaryPoint=projectPoint([0,250,60],s,ordinary);
+close(targetPoint.x,ordinaryPoint.x);close(targetPoint.y/ordinaryPoint.y,fit.anamorphicRatio);
+assert.ok(ordinary>82&&ordinary<84);close(fit.anamorphicRatio,1);
+assert.equal(CYLINDERS.length,0);assert.equal(fit.cylinderCount,0);
+assert.ok(!('m2Y' in BASE));
+const actual=JSON.parse(readFileSync(new URL('../data/optics/current-prescription.json',import.meta.url)));
+assert.equal(actual.surfaces.filter(s=>s.kind==='cylinder').length,0);
+assert.equal(actual.surfaces.filter(s=>s.n_before!==s.n_after).length,11);
+assert.ok(actual.refocus.axisGeometricRmsUm<1);
+const measured=JSON.parse(readFileSync(new URL('../references/ikea-billy-oxberg/sequential-trace/current-no-cylinders-viewer.json',import.meta.url)));
+assert.equal(measured.cylinders,0);assert.equal(measured.ratio,1);
+assert.equal(measured.rayPaths.length,9);
+assert.ok(measured.spineSignalVerticalSpan>.1&&measured.spineSignalVerticalSpan<.3);
+const optimization=measured.positionOptimization;assert.ok(optimization.gainPercent>20);assert.ok(optimization.after.minSensorMarginPx>=10);assert.ok(optimization.after.minMirrorEdgeMarginMm>=1);
+close(actual.layout.camera[1],BASE.cameraY);close(actual.layout.camera[2],BASE.cameraZ);close(actual.layout.mirror[1],BASE.mirrorY);close(actual.layout.tilt_deg,BASE.mirrorTilt);
+assert.equal(optimization.after.coverage,1);
+assert.ok(measured.rayPaths.flat(2).every(Number.isFinite));
+console.log(JSON.stringify({validated:'single-mirror layout reflection and finite aperture, no external cylinders, actual default ray cache, camera-only refocus',notValidated:'OCR, full diffraction, broadband color or manufacturing tolerances',sampledDefaultReach:measured.ratio,signalHeightFraction:measured.spineSignalVerticalSpan,refractions:11,externalCylinders:0,focusRmsUm:actual.refocus.axisGeometricRmsUm},null,2));

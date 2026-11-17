@@ -1,0 +1,215 @@
+{
+  "updated": "2026-11-17",
+  "status": "paused; geometric feasibility estimate only; no real camera, actual lens ray tracing, or OCR validation",
+  "assumptions": {
+    "bookcases": 3,
+    "arrangement": "side by side, coplanar spines assumed, not measured",
+    "each_cabinet_width_mm": 800,
+    "each_cabinet_height_mm": 2020,
+    "combined_width_mm": 2400.0,
+    "combined_height_mm": 2020.0,
+    "linear_framing_margin_factor": 1.1,
+    "sensor_aspect_ratio": 1.3333333333333333,
+    "view_width_mm": 2962.666667,
+    "view_height_mm": 2222.0,
+    "character_pixel_targets_are_engineering_assumptions": true,
+    "projection": "frontal rectilinear/pinhole estimate; no mirrors or cylindrical optics"
+  },
+  "font_requirements": [
+    {
+      "character_height_mm": 8,
+      "requirements": [
+        {
+          "character_pixels": 16,
+          "image_width_px": 5926,
+          "image_height_px": 4444,
+          "megapixels_continuous": 26.33218
+        },
+        {
+          "character_pixels": 24,
+          "image_width_px": 8888,
+          "image_height_px": 6666,
+          "megapixels_continuous": 59.24741
+        },
+        {
+          "character_pixels": 32,
+          "image_width_px": 11851,
+          "image_height_px": 8888,
+          "megapixels_continuous": 105.32873
+        }
+      ]
+    },
+    {
+      "character_height_mm": 6,
+      "requirements": [
+        {
+          "character_pixels": 16,
+          "image_width_px": 7901,
+          "image_height_px": 5926,
+          "megapixels_continuous": 46.81277
+        },
+        {
+          "character_pixels": 24,
+          "image_width_px": 11851,
+          "image_height_px": 8888,
+          "megapixels_continuous": 105.32873
+        },
+        {
+          "character_pixels": 32,
+          "image_width_px": 15801,
+          "image_height_px": 11851,
+          "megapixels_continuous": 187.25107
+        }
+      ]
+    },
+    {
+      "character_height_mm": 4,
+      "requirements": [
+        {
+          "character_pixels": 16,
+          "image_width_px": 11851,
+          "image_height_px": 8888,
+          "megapixels_continuous": 105.32873
+        },
+        {
+          "character_pixels": 24,
+          "image_width_px": 17776,
+          "image_height_px": 13332,
+          "megapixels_continuous": 236.98963
+        },
+        {
+          "character_pixels": 32,
+          "image_width_px": 23702,
+          "image_height_px": 17776,
+          "megapixels_continuous": 421.3149
+        }
+      ]
+    }
+  ],
+  "required_fields": [
+    {
+      "distance_m": 2.0,
+      "hfov_deg": 73.0522,
+      "vfov_deg": 58.1043
+    },
+    {
+      "distance_m": 3.0,
+      "hfov_deg": 52.5583,
+      "vfov_deg": 40.6425
+    },
+    {
+      "distance_m": 4.0,
+      "hfov_deg": 40.6425,
+      "vfov_deg": 31.0453
+    },
+    {
+      "distance_m": 5.0,
+      "hfov_deg": 33.0056,
+      "vfov_deg": 25.0552
+    }
+  ],
+  "ov5640_tight_framing_example": {
+    "image_pixels": [
+      2592,
+      1944
+    ],
+    "character_6mm_height_px": 5.2493,
+    "character_8mm_height_px": 6.9991
+  },
+  "candidate_cameras": [
+    {
+      "sku": "B0494",
+      "full_still_pixels": [
+        12000,
+        9000
+      ],
+      "nominal_hfov_deg": 70,
+      "nominal_vfov_deg": 57,
+      "observed_list_price_usd_from": 299.99,
+      "price_observed_date": "2026-11-17",
+      "source": "https://www.arducam.com/arducam-108mp-motorized-focus-usb-3-0-camera-module.html",
+      "distance_estimates": [
+        {
+          "distance_m": 2.0,
+          "field_width_m": 2.80083,
+          "field_height_m": 2.171823,
+          "character_6mm_height_px": 24.864,
+          "character_8mm_height_px": 33.152
+        },
+        {
+          "distance_m": 2.05,
+          "field_width_m": 2.870851,
+          "field_height_m": 2.226118,
+          "character_6mm_height_px": 24.257,
+          "character_8mm_height_px": 32.343
+        },
+        {
+          "distance_m": 2.1,
+          "field_width_m": 2.940872,
+          "field_height_m": 2.280414,
+          "character_6mm_height_px": 23.68,
+          "character_8mm_height_px": 31.573
+        },
+        {
+          "distance_m": 3.0,
+          "field_width_m": 4.201245,
+          "field_height_m": 3.257734,
+          "character_6mm_height_px": 16.576,
+          "character_8mm_height_px": 22.101
+        }
+      ],
+      "software_status": "Full 108MP requires manufacturer demo; Ubuntu 22.04 tested; macOS/NAS not verified"
+    },
+    {
+      "sku": "B0527",
+      "full_still_pixels": [
+        16320,
+        12288
+      ],
+      "nominal_hfov_deg": 75,
+      "nominal_vfov_deg": 60,
+      "observed_list_price_usd_from": 499.99,
+      "price_observed_date": "2026-11-17",
+      "source": "https://www.arducam.com/arducam-200mp-motorized-focus-usb-3-0-camera-module.html",
+      "distance_estimates": [
+        {
+          "distance_m": 2.0,
+          "field_width_m": 3.069308,
+          "field_height_m": 2.309401,
+          "character_6mm_height_px": 31.925,
+          "character_8mm_height_px": 42.567
+        },
+        {
+          "distance_m": 2.05,
+          "field_width_m": 3.146041,
+          "field_height_m": 2.367136,
+          "character_6mm_height_px": 31.146,
+          "character_8mm_height_px": 41.529
+        },
+        {
+          "distance_m": 2.1,
+          "field_width_m": 3.222773,
+          "field_height_m": 2.424871,
+          "character_6mm_height_px": 30.405,
+          "character_8mm_height_px": 40.54
+        },
+        {
+          "distance_m": 3.0,
+          "field_width_m": 4.603962,
+          "field_height_m": 3.464102,
+          "character_6mm_height_px": 21.283,
+          "character_8mm_height_px": 28.378
+        }
+      ],
+      "software_status": "Full 200MP RAW conversion requires Windows 10/11 per manufacturer; not selected for Linux workflow"
+    }
+  ],
+  "selected_prototype_candidate": "B0494 with Linux capture host, subject to physical sample validation",
+  "limitations": [
+    "Nominal pixel count does not establish resolved detail or OCR accuracy.",
+    "Lens FOV values are manufacturer specifications, not an independently measured distortion model.",
+    "Door reflections, frames, shelves, lighting, depth variation and edge MTF are not modeled.",
+    "Stock lens distance recommendations differ from the freely selected 3m framing example.",
+    "Listed USD prices are historical observations, not domestic landed cost quotes."
+  ]
+}

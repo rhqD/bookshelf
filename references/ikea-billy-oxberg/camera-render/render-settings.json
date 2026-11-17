@@ -1,0 +1,48 @@
+{
+  "renderer": "Blender Cycles",
+  "samples": 96,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "cameraLocalMm": [
+    0,
+    280,
+    230
+  ],
+  "aimLocalMm": [
+    0,
+    295,
+    20
+  ],
+  "horizontalFovDeg": 115,
+  "idealVerticalFovDeg": 18,
+  "idealAnamorphicRatio": 5.574715138175133,
+  "cameraProjectionMaxUVError": 2.3016058745550794e-06,
+  "mirrorCenterLocalMm": [
+    0,
+    299.1461871009169,
+    23.531496332069093
+  ],
+  "mirrorSizeMm": [
+    580,
+    52
+  ],
+  "cabinetGeometry": "Intact official IKEA GLB from saved reference .blend; no cutaway",
+  "books": "27 synthetic aligned books, 220–250 mm tall; custom printed sample titles",
+  "raw": "camera-raw.png",
+  "digitalHorizontalFlip": "camera-corrected.png",
+  "notSimulated": [
+    "real cylinder refraction and optical prescription",
+    "finite entrance pupil",
+    "focus, depth of field and aberrations",
+    "sensor noise and OCR"
+  ],
+  "assumed": [
+    "ideal anisotropic camera mapping",
+    "external indoor soft lighting",
+    "first-surface mirror material",
+    "thin glass door shader replacing GLB alpha preview"
+  ],
+  "embeddedPreview": "camera-raw.jpg"
+}

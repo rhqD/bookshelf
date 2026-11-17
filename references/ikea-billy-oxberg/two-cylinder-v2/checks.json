@@ -1,0 +1,23 @@
+{
+  "cases": [
+    {
+      "case": "moderate-safe.json",
+      "independentRays": 1500,
+      "comparedValidRays": 129,
+      "numpyNumbaPositionErrorMm": 7.105427357601002e-14,
+      "reciprocalPositionErrorMm": 3.774758283725532e-15,
+      "stopShootingErrorMm": 1.4096262362322415e-10
+    },
+    {
+      "case": "forward-2.json",
+      "independentRays": 1500,
+      "comparedValidRays": 195,
+      "numpyNumbaPositionErrorMm": 7.389644451905042e-13,
+      "reciprocalPositionErrorMm": 2.2737367544323206e-13,
+      "stopShootingErrorMm": 2.148446419816186e-10
+    }
+  ],
+  "allMirrorPathsObeyReflection": true,
+  "samplingCoverageConvergenceWithin": 0.001,
+  "limitations": "numerical invariants only; no commercial optical-code or hardware cross-validation"
+}

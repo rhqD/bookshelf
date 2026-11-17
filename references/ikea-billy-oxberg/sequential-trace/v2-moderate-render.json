@@ -1,0 +1,47 @@
+{
+  "layout": {
+    "camera": [
+      0.0,
+      271.92236793470823,
+      197.7572664723291
+    ],
+    "pitch_deg": 2.1476928844255183,
+    "mirror": [
+      0.0,
+      282.6455570088554,
+      20.58641999619632
+    ],
+    "tilt_deg": 37.86297060212626,
+    "mirror_size": [
+      580.0,
+      52.0
+    ],
+    "sensor_mm": [
+      6.4,
+      3.6
+    ],
+    "sensor_pixels": [
+      4000,
+      2250
+    ]
+  },
+  "prescription": "references/ikea-billy-oxberg/two-cylinder-v2/weak-seed.json",
+  "width": 4000,
+  "height": 2250,
+  "samplesPerPixel": 64,
+  "rays": 576000000,
+  "lensPass": 225200593,
+  "spineHits": 66567972,
+  "displayGain": 240.7027654441114,
+  "elapsedSeconds": 41.44501781463623,
+  "optics": "exact sphere/cylinder intersections, vector Snell refraction, Fresnel, finite real stop, finite M1",
+  "scene": "analytic cabinet and book boxes, synthetic monochrome printed textures, diffuse direct + ambient lighting",
+  "excluded": [
+    "diffraction wave propagation",
+    "broadband chromatic aberration",
+    "sensor shot/read noise",
+    "surface manufacturing errors",
+    "stray multi-reflection ghosts"
+  ],
+  "imageCorrection": "horizontal digital mirror flip only; no image squeeze, perspective rectification, denoise or sharpen"
+}

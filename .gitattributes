@@ -1,0 +1,14 @@
+# Keep reference assets byte-for-byte and show binary formats as binary diffs.
+*.pdf binary
+*.glb binary
+*.blend binary
+*.npz binary
+*.npy binary
+*.traineddata binary
+
+# Generated pages and archived third-party / experiment files retain original whitespace.
+/index.html -whitespace
+/two-cylinder-effect.html -whitespace
+/optical-validation.html -whitespace
+/references/** -whitespace
+/data/optics/pbrt-fisheye-10mm.dat -whitespace

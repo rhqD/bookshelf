@@ -1,0 +1,21 @@
+{
+  "width": 1600,
+  "height": 900,
+  "samplesPerPixel": 64,
+  "rays": 92160000,
+  "lensPass": 59433127,
+  "spineHits": 5010062,
+  "displayGain": 294.11710769678115,
+  "elapsedSeconds": 6.1988959312438965,
+  "optics": "exact sphere/cylinder intersections, vector Snell refraction, Fresnel, finite real stop, finite M1",
+  "scene": "analytic cabinet and book boxes, synthetic monochrome printed textures, diffuse direct + ambient lighting",
+  "excluded": [
+    "diffraction wave propagation",
+    "broadband chromatic aberration",
+    "sensor shot/read noise",
+    "surface manufacturing errors",
+    "stray multi-reflection ghosts"
+  ],
+  "imageCorrection": "horizontal digital mirror flip only; no image squeeze, perspective rectification, denoise or sharpen",
+  "exposureComparison": "same global display gain as the cylinder render"
+}

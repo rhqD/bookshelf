@@ -1,0 +1,18 @@
+{
+  "previousClearWidthMm": 420,
+  "clearWidthMm": 100,
+  "nativePixels": [
+    4000,
+    2250
+  ],
+  "samplesPerPixel": 64,
+  "comparedData": {
+    "linear": true,
+    "hits": true,
+    "half_hits": true,
+    "rowSpineHits": true,
+    "counts": true
+  },
+  "rays": 576000000,
+  "note": "Identical complete sampled render, including full sensor pixels and book hit counts; curvatures, pose and focus unchanged."
+}

@@ -1,0 +1,784 @@
+{
+  "before": {
+    "minPxPerMm": 0.44117492099031,
+    "p10PxPerMm": 0.583600278984544,
+    "medianPxPerMm": 0.8485286779482893,
+    "worstPointMm": [
+      -379.65,
+      0.0,
+      60.0
+    ],
+    "checkedSpinePoints": 14039,
+    "reachedSpinePoints": 14039,
+    "coverage": 1.0,
+    "minSensorMarginPx": 195.68187182834572,
+    "minMirrorEdgeMarginMm": 5.008388788649718,
+    "finitePupil": {
+      "samplesPerObject": 256,
+      "medianGeometricD80NativePx": 1.330710575494893,
+      "maxGeometricD80NativePx": 2.1802137646572604,
+      "acceptedStopRayFractionRange": [
+        1.0,
+        1.0
+      ],
+      "rows": [
+        {
+          "pointMm": [
+            -379.0,
+            1.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.6576815409611267
+        },
+        {
+          "pointMm": [
+            -285.0,
+            1.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.330710575494893
+        },
+        {
+          "pointMm": [
+            -190.0,
+            1.0,
+            60.0
+          ],
+          "geometricD80NativePx": 0.9666269902748234
+        },
+        {
+          "pointMm": [
+            0.0,
+            1.0,
+            60.0
+          ],
+          "geometricD80NativePx": 0.6403482557073134
+        },
+        {
+          "pointMm": [
+            190.0,
+            1.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.0003687062175861
+        },
+        {
+          "pointMm": [
+            285.0,
+            1.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.3086676931226462
+        },
+        {
+          "pointMm": [
+            379.0,
+            1.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.6533908901754648
+        },
+        {
+          "pointMm": [
+            -379.0,
+            50.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.7008692668408847
+        },
+        {
+          "pointMm": [
+            -285.0,
+            50.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.3387431148797109
+        },
+        {
+          "pointMm": [
+            -190.0,
+            50.0,
+            60.0
+          ],
+          "geometricD80NativePx": 0.9259750390949224
+        },
+        {
+          "pointMm": [
+            0.0,
+            50.0,
+            60.0
+          ],
+          "geometricD80NativePx": 0.5231057367155201
+        },
+        {
+          "pointMm": [
+            190.0,
+            50.0,
+            60.0
+          ],
+          "geometricD80NativePx": 0.9509785956845443
+        },
+        {
+          "pointMm": [
+            285.0,
+            50.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.3289801885903334
+        },
+        {
+          "pointMm": [
+            379.0,
+            50.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.6844536041383644
+        },
+        {
+          "pointMm": [
+            -379.0,
+            125.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.8377463407009067
+        },
+        {
+          "pointMm": [
+            -285.0,
+            125.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.3461074269362154
+        },
+        {
+          "pointMm": [
+            -190.0,
+            125.0,
+            60.0
+          ],
+          "geometricD80NativePx": 0.8818832203353166
+        },
+        {
+          "pointMm": [
+            0.0,
+            125.0,
+            60.0
+          ],
+          "geometricD80NativePx": 0.5096237884731795
+        },
+        {
+          "pointMm": [
+            190.0,
+            125.0,
+            60.0
+          ],
+          "geometricD80NativePx": 0.8827123969017724
+        },
+        {
+          "pointMm": [
+            285.0,
+            125.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.3544302225968023
+        },
+        {
+          "pointMm": [
+            379.0,
+            125.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.8079380079820464
+        },
+        {
+          "pointMm": [
+            -379.0,
+            200.0,
+            60.0
+          ],
+          "geometricD80NativePx": 2.090958022371745
+        },
+        {
+          "pointMm": [
+            -285.0,
+            200.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.455465677063915
+        },
+        {
+          "pointMm": [
+            -190.0,
+            200.0,
+            60.0
+          ],
+          "geometricD80NativePx": 0.8203683146807182
+        },
+        {
+          "pointMm": [
+            0.0,
+            200.0,
+            60.0
+          ],
+          "geometricD80NativePx": 0.6560157761435467
+        },
+        {
+          "pointMm": [
+            190.0,
+            200.0,
+            60.0
+          ],
+          "geometricD80NativePx": 0.812086944453888
+        },
+        {
+          "pointMm": [
+            285.0,
+            200.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.5080297776014062
+        },
+        {
+          "pointMm": [
+            379.0,
+            200.0,
+            60.0
+          ],
+          "geometricD80NativePx": 2.0601677425208926
+        },
+        {
+          "pointMm": [
+            -379.0,
+            219.0,
+            60.0
+          ],
+          "geometricD80NativePx": 2.1802137646572604
+        },
+        {
+          "pointMm": [
+            -285.0,
+            219.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.52549479185134
+        },
+        {
+          "pointMm": [
+            -190.0,
+            219.0,
+            60.0
+          ],
+          "geometricD80NativePx": 0.8091098916456964
+        },
+        {
+          "pointMm": [
+            0.0,
+            219.0,
+            60.0
+          ],
+          "geometricD80NativePx": 0.7141204465983018
+        },
+        {
+          "pointMm": [
+            190.0,
+            219.0,
+            60.0
+          ],
+          "geometricD80NativePx": 0.8209167764458638
+        },
+        {
+          "pointMm": [
+            285.0,
+            219.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.530661555741091
+        },
+        {
+          "pointMm": [
+            379.0,
+            219.0,
+            60.0
+          ],
+          "geometricD80NativePx": 2.1404210307955474
+        }
+      ]
+    },
+    "layout": {
+      "camera": [
+        0.0,
+        280.0,
+        230.0
+      ],
+      "pitch_deg": 4.085616779974877,
+      "mirror": [
+        0.0,
+        299.1461871009169,
+        23.531496332069093
+      ],
+      "tilt_deg": 40.42254843239384,
+      "mirror_size": [
+        580.0,
+        52.0
+      ],
+      "sensor_mm": [
+        6.4,
+        3.6
+      ],
+      "sensor_pixels": [
+        4000,
+        2250
+      ]
+    },
+    "filmZMm": -16.980363187703496
+  },
+  "after": {
+    "minPxPerMm": 0.5327398433743485,
+    "p10PxPerMm": 0.7278138713799698,
+    "medianPxPerMm": 1.0974704606845425,
+    "worstPointMm": [
+      -379.65,
+      0.0,
+      60.0
+    ],
+    "checkedSpinePoints": 14039,
+    "reachedSpinePoints": 14039,
+    "coverage": 1.0,
+    "minSensorMarginPx": 12.881617923555268,
+    "minMirrorEdgeMarginMm": 1.5001171279552281,
+    "finitePupil": {
+      "samplesPerObject": 256,
+      "medianGeometricD80NativePx": 1.5766645671689015,
+      "maxGeometricD80NativePx": 2.631680484881688,
+      "acceptedStopRayFractionRange": [
+        1.0,
+        1.0
+      ],
+      "rows": [
+        {
+          "pointMm": [
+            -379.0,
+            1.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.9493170868518868
+        },
+        {
+          "pointMm": [
+            -285.0,
+            1.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.550304146131207
+        },
+        {
+          "pointMm": [
+            -190.0,
+            1.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.1710292853436433
+        },
+        {
+          "pointMm": [
+            0.0,
+            1.0,
+            60.0
+          ],
+          "geometricD80NativePx": 0.7451816931071703
+        },
+        {
+          "pointMm": [
+            190.0,
+            1.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.2110192790122971
+        },
+        {
+          "pointMm": [
+            285.0,
+            1.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.5602431783422093
+        },
+        {
+          "pointMm": [
+            379.0,
+            1.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.9233047672509684
+        },
+        {
+          "pointMm": [
+            -379.0,
+            50.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.9989813270768926
+        },
+        {
+          "pointMm": [
+            -285.0,
+            50.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.5766645671689015
+        },
+        {
+          "pointMm": [
+            -190.0,
+            50.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.1268028576895286
+        },
+        {
+          "pointMm": [
+            0.0,
+            50.0,
+            60.0
+          ],
+          "geometricD80NativePx": 0.5952592468672003
+        },
+        {
+          "pointMm": [
+            190.0,
+            50.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.138232445549639
+        },
+        {
+          "pointMm": [
+            285.0,
+            50.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.5816372321762522
+        },
+        {
+          "pointMm": [
+            379.0,
+            50.0,
+            60.0
+          ],
+          "geometricD80NativePx": 2.0357317112811084
+        },
+        {
+          "pointMm": [
+            -379.0,
+            125.0,
+            60.0
+          ],
+          "geometricD80NativePx": 2.1967550514265843
+        },
+        {
+          "pointMm": [
+            -285.0,
+            125.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.6368186767032111
+        },
+        {
+          "pointMm": [
+            -190.0,
+            125.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.0634975627775933
+        },
+        {
+          "pointMm": [
+            0.0,
+            125.0,
+            60.0
+          ],
+          "geometricD80NativePx": 0.5099382325809031
+        },
+        {
+          "pointMm": [
+            190.0,
+            125.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.0702017720979342
+        },
+        {
+          "pointMm": [
+            285.0,
+            125.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.6568973888099556
+        },
+        {
+          "pointMm": [
+            379.0,
+            125.0,
+            60.0
+          ],
+          "geometricD80NativePx": 2.206357115045338
+        },
+        {
+          "pointMm": [
+            -379.0,
+            200.0,
+            60.0
+          ],
+          "geometricD80NativePx": 2.5160363256006724
+        },
+        {
+          "pointMm": [
+            -285.0,
+            200.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.8547485773781496
+        },
+        {
+          "pointMm": [
+            -190.0,
+            200.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.0441394402061448
+        },
+        {
+          "pointMm": [
+            0.0,
+            200.0,
+            60.0
+          ],
+          "geometricD80NativePx": 0.72327052117492
+        },
+        {
+          "pointMm": [
+            190.0,
+            200.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.0421218056670059
+        },
+        {
+          "pointMm": [
+            285.0,
+            200.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.8578612720895924
+        },
+        {
+          "pointMm": [
+            379.0,
+            200.0,
+            60.0
+          ],
+          "geometricD80NativePx": 2.5229620856423853
+        },
+        {
+          "pointMm": [
+            -379.0,
+            219.0,
+            60.0
+          ],
+          "geometricD80NativePx": 2.619484647628907
+        },
+        {
+          "pointMm": [
+            -285.0,
+            219.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.9459714390975578
+        },
+        {
+          "pointMm": [
+            -190.0,
+            219.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.082461500791528
+        },
+        {
+          "pointMm": [
+            0.0,
+            219.0,
+            60.0
+          ],
+          "geometricD80NativePx": 0.8080585867478477
+        },
+        {
+          "pointMm": [
+            190.0,
+            219.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.0651436478383998
+        },
+        {
+          "pointMm": [
+            285.0,
+            219.0,
+            60.0
+          ],
+          "geometricD80NativePx": 1.9544894458271234
+        },
+        {
+          "pointMm": [
+            379.0,
+            219.0,
+            60.0
+          ],
+          "geometricD80NativePx": 2.631680484881688
+        }
+      ]
+    },
+    "layout": {
+      "camera": [
+        0.0,
+        271.92236793470823,
+        189.7572664723291
+      ],
+      "pitch_deg": 2.1476928844255183,
+      "mirror": [
+        0.0,
+        282.6455570088554,
+        20.58641999619632
+      ],
+      "tilt_deg": 37.86297060212626,
+      "mirror_size": [
+        580.0,
+        52.0
+      ],
+      "sensor_mm": [
+        6.4,
+        3.6
+      ],
+      "sensor_pixels": [
+        4000,
+        2250
+      ]
+    },
+    "filmZMm": -16.984036811026645
+  },
+  "gainPercent": 20.754788639957546,
+  "definition": "minimum singular value of d(native sensor pixel x,y)/d(spine mm x,y), central differences 0.1mm; minimum over actual book-spine samples; counts sampling, not resolved line pairs or OCR accuracy",
+  "search": {
+    "layout": {
+      "camera": [
+        0.0,
+        271.92236793470823,
+        189.7572664723291
+      ],
+      "pitch_deg": 2.1476928844255183,
+      "mirror": [
+        0.0,
+        282.6455570088554,
+        20.58641999619632
+      ],
+      "tilt_deg": 37.86297060212626,
+      "mirror_size": [
+        580.0,
+        52.0
+      ],
+      "sensor_mm": [
+        6.4,
+        3.6
+      ],
+      "sensor_pixels": [
+        4000,
+        2250
+      ]
+    },
+    "film_z": -16.984036811026645,
+    "focusRmsUm": 0.32048459820393205,
+    "objective": 0.5321605073490866,
+    "calls": 4455,
+    "seconds": 97.5889458656311,
+    "scope": "symmetric X=0 camera, mirror axis parallel shelf width; same lens/sensor/stop and 580x52 mirror",
+    "constraints": "mirror/chassis at least 5mm above 250mm books, 4mm from roof/front/back envelope; full 760x250 spine rectangle, 1mm mirror and 10px sensor sampling margins",
+    "method": "seeded differential evolution + bounded Nelder Mead; each density from exact sequential chief-ray finite-difference Jacobian; numerical candidate, not proof of global optimum"
+  },
+  "representativePoints": {
+    "before": [
+      {
+        "pointMm": [
+          0.0,
+          50.0,
+          60.0
+        ],
+        "minPxPerMm": 0.7812669169425135,
+        "char8mmMinDirectionPx": 6.250135335540108
+      },
+      {
+        "pointMm": [
+          0.0,
+          125.0,
+          60.0
+        ],
+        "minPxPerMm": 1.1038402780013712,
+        "char8mmMinDirectionPx": 8.83072222401097
+      },
+      {
+        "pointMm": [
+          -350.0,
+          125.0,
+          60.0
+        ],
+        "minPxPerMm": 0.6691334115991256,
+        "char8mmMinDirectionPx": 5.353067292793005
+      },
+      {
+        "pointMm": [
+          350.0,
+          125.0,
+          60.0
+        ],
+        "minPxPerMm": 0.6691334115875195,
+        "char8mmMinDirectionPx": 5.353067292700156
+      }
+    ],
+    "after": [
+      {
+        "pointMm": [
+          0.0,
+          50.0,
+          60.0
+        ],
+        "minPxPerMm": 1.0418315109859577,
+        "char8mmMinDirectionPx": 8.334652087887662
+      },
+      {
+        "pointMm": [
+          0.0,
+          125.0,
+          60.0
+        ],
+        "minPxPerMm": 1.5418232987690317,
+        "char8mmMinDirectionPx": 12.334586390152253
+      },
+      {
+        "pointMm": [
+          -350.0,
+          125.0,
+          60.0
+        ],
+        "minPxPerMm": 0.8241496783016184,
+        "char8mmMinDirectionPx": 6.593197426412948
+      },
+      {
+        "pointMm": [
+          350.0,
+          125.0,
+          60.0
+        ],
+        "minPxPerMm": 0.8241496782895822,
+        "char8mmMinDirectionPx": 6.5931974263166575
+      }
+    ]
+  }
+}

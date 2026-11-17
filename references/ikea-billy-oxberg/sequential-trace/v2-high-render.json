@@ -1,0 +1,47 @@
+{
+  "layout": {
+    "camera": [
+      0.0,
+      276.29109849937487,
+      189.75726647242908
+    ],
+    "pitch_deg": 0.8953079059465296,
+    "mirror": [
+      0.0,
+      282.6455570088554,
+      20.58641999619632
+    ],
+    "tilt_deg": 37.86297060212626,
+    "mirror_size": [
+      580.0,
+      52.0
+    ],
+    "sensor_mm": [
+      6.4,
+      3.6
+    ],
+    "sensor_pixels": [
+      4000,
+      2250
+    ]
+  },
+  "prescription": "references/ikea-billy-oxberg/two-cylinder-v2/forward-2.json",
+  "width": 4000,
+  "height": 2250,
+  "samplesPerPixel": 64,
+  "rays": 576000000,
+  "lensPass": 322486399,
+  "spineHits": 158169916,
+  "displayGain": 268.9678133139015,
+  "elapsedSeconds": 45.672313928604126,
+  "optics": "exact sphere/cylinder intersections, vector Snell refraction, Fresnel, finite real stop, finite M1",
+  "scene": "analytic cabinet and book boxes, synthetic monochrome printed textures, diffuse direct + ambient lighting",
+  "excluded": [
+    "diffraction wave propagation",
+    "broadband chromatic aberration",
+    "sensor shot/read noise",
+    "surface manufacturing errors",
+    "stray multi-reflection ghosts"
+  ],
+  "imageCorrection": "horizontal digital mirror flip only; no image squeeze, perspective rectification, denoise or sharpen"
+}

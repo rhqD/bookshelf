@@ -1,0 +1,56 @@
+{
+  "status": "geometric_candidate_only_not_an_optical_prescription",
+  "coordinate_frame": "mm, X across; Y above shelf; Z inward from cabinet front",
+  "camera": [
+    0,
+    280,
+    230
+  ],
+  "cameraAimPoint": [
+    0,
+    295,
+    20
+  ],
+  "mirrorCenter": [
+    0,
+    299.1461871009169,
+    23.531496332069093
+  ],
+  "mirrorSize": [
+    580,
+    52
+  ],
+  "mirrorTiltDeg": 40.422548432393846,
+  "virtualCamera": [
+    0.0,
+    499.93841537974447,
+    -28.220803618763398
+  ],
+  "assumedIdealHFOV": 115,
+  "assumedIdealVFOV": 18,
+  "testedPoints": 15453,
+  "missedPoints": 0,
+  "requiredHFOV": 110.52341553683004,
+  "requiredVFOV": 12.401983642318543,
+  "spinePlaneAngleRange": [
+    7.996981135221528,
+    19.441511736346477
+  ],
+  "minimumTopBookClearanceAlongCameraToMirrorRay": 32.530121566636126,
+  "anamorphicFactorFor16_9Sensor": 5.574715138175131,
+  "limitations": [
+    "Ideal point-pupil, flat aligned spines, zero-aberration geometric model",
+    "Anamorphic objective design, finite entrance pupil, MTF and depth of field are not validated",
+    "No guarantee of readable book text; no changes made to active viewer"
+  ],
+  "assumptions": {
+    "bayWidthMm": 760,
+    "bayDepthMm": 260,
+    "bayHeightMm": 328,
+    "maximumBookHeightMm": 250,
+    "alignedSpineDepthMm": 60,
+    "bookDepthMm": 200,
+    "sensorAspectRatio": "16:9"
+  },
+  "geometryOnlyNote": "A candidate for further optical design, not verified OCR or a lens prescription. Active index.html is unchanged."
+}

@@ -1,0 +1,123 @@
+{
+  "prescription": "data/optics/two-cylinder-prescription.json",
+  "method": "independent scrambled Sobol samples over full sensor and actual 0.8mm stop; exact surface tracing; both L2 surfaces checked; no manufacturing tolerance model",
+  "runs": [
+    {
+      "rays": 131072,
+      "mirrorRays": 27546,
+      "bookRays": 20768,
+      "surfaces": [
+        {
+          "name": "L2-1",
+          "bookXRangeMm": [
+            -38.05746052278618,
+            37.73557651781111
+          ],
+          "mirrorXRangeMm": [
+            -40.185115048574914,
+            40.28042148831456
+          ],
+          "allAdmittedXRangeMm": [
+            -46.00662606367061,
+            45.91447655962676
+          ],
+          "bookYRangeMm": [
+            -3.1889332233891614,
+            13.201214488275168
+          ]
+        },
+        {
+          "name": "L2-2",
+          "bookXRangeMm": [
+            -41.404169151465986,
+            41.22833263258518
+          ],
+          "mirrorXRangeMm": [
+            -43.65271317668024,
+            43.76588179492251
+          ],
+          "allAdmittedXRangeMm": [
+            -49.55135797772333,
+            49.46589568479276
+          ],
+          "bookYRangeMm": [
+            -3.708816355843492,
+            13.916549929531365
+          ]
+        }
+      ],
+      "width60BookFraction": 0.9334553158705701,
+      "width60MirrorFraction": 0.836854715748203,
+      "width64BookFraction": 0.955267719568567,
+      "width64MirrorFraction": 0.8738110796485878,
+      "width70BookFraction": 0.9801617873651772,
+      "width70MirrorFraction": 0.9272126624555289,
+      "width80BookFraction": 0.9972072419106317,
+      "width80MirrorFraction": 0.9878748275611704,
+      "width90BookFraction": 1.0,
+      "width90MirrorFraction": 1.0,
+      "width100BookFraction": 1.0,
+      "width100MirrorFraction": 1.0
+    },
+    {
+      "rays": 262144,
+      "mirrorRays": 55090,
+      "bookRays": 41506,
+      "surfaces": [
+        {
+          "name": "L2-1",
+          "bookXRangeMm": [
+            -37.61791496497081,
+            37.56358353146697
+          ],
+          "mirrorXRangeMm": [
+            -40.746671428161406,
+            40.509167479195064
+          ],
+          "allAdmittedXRangeMm": [
+            -45.985209011048525,
+            45.588379889790446
+          ],
+          "bookYRangeMm": [
+            -3.2657949824204806,
+            13.264655180394188
+          ]
+        },
+        {
+          "name": "L2-2",
+          "bookXRangeMm": [
+            -41.07466804244404,
+            41.065571518145575
+          ],
+          "mirrorXRangeMm": [
+            -44.135731404860586,
+            43.93545738246067
+          ],
+          "allAdmittedXRangeMm": [
+            -49.54696137802374,
+            49.20548485113287
+          ],
+          "bookYRangeMm": [
+            -3.7977741267406313,
+            13.977686616247832
+          ]
+        }
+      ],
+      "width60BookFraction": 0.9335035898424324,
+      "width60MirrorFraction": 0.8369032492285351,
+      "width64BookFraction": 0.9556449669927239,
+      "width64MirrorFraction": 0.8742966055545471,
+      "width70BookFraction": 0.9803401917795017,
+      "width70MirrorFraction": 0.9274278453439826,
+      "width80BookFraction": 0.9973497807545897,
+      "width80MirrorFraction": 0.9878743873661282,
+      "width90BookFraction": 1.0,
+      "width90MirrorFraction": 1.0,
+      "width100BookFraction": 1.0,
+      "width100MirrorFraction": 1.0
+    }
+  ],
+  "referenceL2ClearWidthMm": 420,
+  "selectedL2ClearWidthMm": 100,
+  "fullRenderVerification": "references/ikea-billy-oxberg/two-cylinder-v2/l2-100mm-verification.json"
+}

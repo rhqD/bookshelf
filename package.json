@@ -1,0 +1,16 @@
+{
+  "name": "bookshelf-model-reference",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-viewer.mjs",
+    "check": "node scripts/check-optics.mjs",
+    "dev": "python3 -m http.server 8765 --bind 127.0.0.1",
+    "build:effects": "node scripts/build-cylinder-effect.mjs",
+    "check:effects": ".venv/bin/python optics/check_cylinder_effect.py"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12",
+    "three": "0.181.1"
+  }
+}

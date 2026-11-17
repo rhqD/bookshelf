@@ -1,0 +1,147 @@
+{
+  "updated": "2026-11-17",
+  "variant": "camera-plus-M1-no-cylinders",
+  "units": "mm",
+  "frame": "X right, Y above shelf, Z inward from cabinet front",
+  "removed": [
+    "L1",
+    "L2",
+    "external cylinder frames",
+    "external cylinder mounting posts",
+    "anamorphic image squeeze"
+  ],
+  "cameraFront": [
+    0,
+    280,
+    230
+  ],
+  "cameraAim": [
+    0,
+    295,
+    20
+  ],
+  "mirrors": [
+    {
+      "id": "M1",
+      "center": [
+        0,
+        299.1461871009169,
+        23.531496332069093
+      ],
+      "normal": [
+        0,
+        0.6484195499918897,
+        -0.7612831846220665
+      ],
+      "tangent": [
+        0,
+        0.7612831846220665,
+        0.6484195499918897
+      ],
+      "length": 580,
+      "width": 52,
+      "tiltFromVertical": 40.42254843239384
+    }
+  ],
+  "cameraPrescription": "data/optics/current-prescription.json",
+  "cameraRefractingSurfaces": 11,
+  "externalCylinderCount": 0,
+  "sensorMm": [
+    6.4,
+    3.6
+  ],
+  "sensorPixels": [
+    4000,
+    2250
+  ],
+  "refocus": {
+    "targetShelfMm": [
+      0,
+      125,
+      60
+    ],
+    "targetUnfoldedOpticalMm": [
+      0,
+      -6.276990604613348e-14,
+      385.1775246800028
+    ],
+    "acceptedRays": 512,
+    "axisGeometricRmsUm": 0.32029911427468244
+  },
+  "layoutProxy": {
+    "parameters": {
+      "width": 760,
+      "height": 328,
+      "depth": 260,
+      "cameraY": 280,
+      "cameraZ": 230,
+      "aimY": 295,
+      "aimZ": 20,
+      "mirrorY": 299.1461871009169,
+      "mirrorZ": 23.531496332069093,
+      "m1Length": 580,
+      "m1Width": 52,
+      "mirrorTilt": 40.42254843239384,
+      "hfov": 115,
+      "vfov": 82.88566833468566,
+      "bookDepth": 200,
+      "spineZ": 60,
+      "bookHeight": 250,
+      "sensorAspect": 1.7777777777777777
+    },
+    "note": "Pin-hole proxy only for interactive geometry changes. Default viewer uses the actual sequentially traced coverage cache."
+  },
+  "chiefLayoutPath": {
+    "points": [
+      [
+        0,
+        280,
+        230
+      ],
+      [
+        0,
+        295,
+        19.99999999999997
+      ],
+      [
+        0,
+        125.00000000000006,
+        60
+      ]
+    ],
+    "target": "spine"
+  },
+  "installation": {
+    "pathLength": 385.17752468000276,
+    "target": "spine",
+    "topClearance": 9.06045009890937,
+    "mirrorBookHeight": 29.35282430074318,
+    "mirrorSpineClearance": 19.609595368141775,
+    "cameraBookClearance": 16.5343075522851,
+    "cylinderCount": 0,
+    "backClearance": 0,
+    "mirrorSideClearance": 90,
+    "ordinaryVfov": 82.88566833468566,
+    "anamorphicRatio": 1
+  },
+  "defaultActualSampledReach": 1,
+  "defaultActualSignalHeightFraction": 0.13644444444444445,
+  "actualRayPaths": 9,
+  "render": "references/ikea-billy-oxberg/sequential-trace/current-no-cylinders-render.json",
+  "limitations": [
+    "sampled ray reach is not OCR accuracy",
+    "single wavelength geometric optics",
+    "no full diffraction, broadband color, noise or manufacturing tolerances"
+  ],
+  "mirrorImageRectification": {
+    "method": "inverse calibrated ray mapping onto spine plane",
+    "source": "current-no-cylinders-data.npz",
+    "planeShelfZMm": 60,
+    "outputPixels": [
+      3040,
+      1000
+    ],
+    "settings": "references/ikea-billy-oxberg/mirror-rectification/rectification-settings.json",
+    "doesNotAddTextOrOpticalResolution": true
+  }
+}

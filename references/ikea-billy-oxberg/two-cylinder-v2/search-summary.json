@@ -1,0 +1,206 @@
+[
+  {
+    "target": 1.5,
+    "variables": [
+      311.04186099590055,
+      250.13030461328574,
+      95.72557009203194,
+      -0.0685831219077645,
+      -0.12015241716175155,
+      6.715145057940374,
+      34.056321899959805,
+      15.161649451182432,
+      -3.0781100065805846
+    ],
+    "layout": {
+      "camera": [
+        0.0,
+        287.08401738589066,
+        223.8135883722889
+      ],
+      "pitch_deg": -0.9304171221550663,
+      "mirror": [
+        0.0,
+        282.6455570088554,
+        20.58641999619632
+      ],
+      "tilt_deg": 37.86297060212626,
+      "mirror_size": [
+        580.0,
+        52.0
+      ],
+      "sensor_mm": [
+        6.4,
+        3.6
+      ],
+      "sensor_pixels": [
+        4000,
+        2250
+      ]
+    },
+    "film_z": -16.74897505794037,
+    "parameters": {
+      "scale": 0.3,
+      "stop": 0.8,
+      "film_gap": 6.715145057940372
+    },
+    "wavelength_nm": 587.6,
+    "sensor_mm": [
+      6.4,
+      3.6
+    ],
+    "sensor_pixels": [
+      4000,
+      2250
+    ],
+    "glass": "N-BK7 d-line n=1.51680; camera indices from PBRT research prescription",
+    "sampledCentreVerticalMagnification": 0.9835861673199071,
+    "fieldChiefCoverage": 0.19047619047619047,
+    "minPupilFraction": 0.0,
+    "medianGeometricRmsNativePx": 0.0,
+    "maxGeometricRmsNativePx": 5.69032483126664,
+    "mechanicalResidual": 0.0,
+    "note": "new full-field finite-pupil two-singlet trial; no imposed squeeze; not a production optical module",
+    "merit": 102265.82800421816,
+    "optimizerSuccess": true,
+    "evaluations": 18,
+    "calls": 72,
+    "elapsedSeconds": 6.641739130020142
+  },
+  {
+    "target": 2.0,
+    "variables": [
+      21.936174614554254,
+      250.85970358303769,
+      28.394057927808483,
+      0.9282454874374125,
+      0.22806869065593705,
+      6.847864025718793,
+      34.05617181478597,
+      15.117083447445228,
+      -1.297155089980952
+    ],
+    "layout": {
+      "camera": [
+        0.0,
+        287.03945138215346,
+        223.81343828711505
+      ],
+      "pitch_deg": 0.8505377944445662,
+      "mirror": [
+        0.0,
+        282.6455570088554,
+        20.58641999619632
+      ],
+      "tilt_deg": 37.86297060212626,
+      "mirror_size": [
+        580.0,
+        52.0
+      ],
+      "sensor_mm": [
+        6.4,
+        3.6
+      ],
+      "sensor_pixels": [
+        4000,
+        2250
+      ]
+    },
+    "film_z": -16.88169402571879,
+    "parameters": {
+      "scale": 0.3,
+      "stop": 0.8,
+      "film_gap": 6.847864025718792
+    },
+    "wavelength_nm": 587.6,
+    "sensor_mm": [
+      6.4,
+      3.6
+    ],
+    "sensor_pixels": [
+      4000,
+      2250
+    ],
+    "glass": "N-BK7 d-line n=1.51680; camera indices from PBRT research prescription",
+    "sampledCentreVerticalMagnification": 0.5254730599990772,
+    "fieldChiefCoverage": 0.6666666666666666,
+    "minPupilFraction": 0.0,
+    "medianGeometricRmsNativePx": 6.037458577596895,
+    "maxGeometricRmsNativePx": 6.468737298248444,
+    "mechanicalResidual": 0.0,
+    "note": "new full-field finite-pupil two-singlet trial; no imposed squeeze; not a production optical module",
+    "merit": 37629.685333563975,
+    "optimizerSuccess": true,
+    "evaluations": 20,
+    "calls": 119,
+    "elapsedSeconds": 9.339302062988281
+  },
+  {
+    "target": 2.5,
+    "variables": [
+      20.642256300036095,
+      359.53779523664923,
+      27.554868757609448,
+      0.947607640896548,
+      0.4569647763583607,
+      7.06324921797791,
+      23.011975613742344,
+      4.03302103709715,
+      0.8279064904235987
+    ],
+    "layout": {
+      "camera": [
+        0.0,
+        275.9553889718054,
+        212.76924208607144
+      ],
+      "pitch_deg": 2.975599374849117,
+      "mirror": [
+        0.0,
+        282.6455570088554,
+        20.58641999619632
+      ],
+      "tilt_deg": 37.86297060212626,
+      "mirror_size": [
+        580.0,
+        52.0
+      ],
+      "sensor_mm": [
+        6.4,
+        3.6
+      ],
+      "sensor_pixels": [
+        4000,
+        2250
+      ]
+    },
+    "film_z": -17.097079217977907,
+    "parameters": {
+      "scale": 0.3,
+      "stop": 0.8,
+      "film_gap": 7.0632492179779085
+    },
+    "wavelength_nm": 587.6,
+    "sensor_mm": [
+      6.4,
+      3.6
+    ],
+    "sensor_pixels": [
+      4000,
+      2250
+    ],
+    "glass": "N-BK7 d-line n=1.51680; camera indices from PBRT research prescription",
+    "sampledCentreVerticalMagnification": 0.5908452196169046,
+    "fieldChiefCoverage": 0.47619047619047616,
+    "minPupilFraction": 0.0,
+    "medianGeometricRmsNativePx": 0.0,
+    "maxGeometricRmsNativePx": 4.084516426789306,
+    "mechanicalResidual": 11.583290882973643,
+    "note": "new full-field finite-pupil two-singlet trial; no imposed squeeze; not a production optical module",
+    "merit": 47683.35647935325,
+    "optimizerSuccess": true,
+    "evaluations": 15,
+    "calls": 215,
+    "elapsedSeconds": 15.146893978118896
+  }
+]

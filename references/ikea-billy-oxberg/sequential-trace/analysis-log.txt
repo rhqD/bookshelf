@@ -1,0 +1,77 @@
+/Users/bytedance/study-workspace/bookshelf/.venv/lib/python3.14/site-packages/numba/parfors/parfor.py:2479: NumbaPerformanceWarning: 
+prange or pndindex loop will not be executed in parallel due to there being more than one entry to or exit from the loop (e.g., an assertion).
+
+File "optics/fast.py", line 60:
+def trace_batch(origins,directions,surfaces):
+    <source elided>
+    out=np.zeros((len(origins),9))
+    for k in prange(len(origins)):
+    ^
+
+  warnings.warn(
+{
+  "coverage": {
+    "halfSamples": {
+      "anyRayCoverage": 0.6137306415929203,
+      "atLeast8Rays": 0.6113108407079646,
+      "reachedCells": 8877,
+      "targetCells": 14464
+    },
+    "fullSamples": {
+      "anyRayCoverage": 0.6139380530973452,
+      "atLeast8Rays": 0.6120713495575221,
+      "reachedCells": 8880,
+      "targetCells": 14464
+    }
+  },
+  "centralField": {
+    "sensorMm": [
+      0.0,
+      0.0
+    ],
+    "sensorPixel": [
+      2000.0,
+      1125.0
+    ],
+    "objectCentroidMm": [
+      -0.00025127207909214877,
+      124.99906926642186
+    ],
+    "validRays": 1332,
+    "rays": 2048,
+    "objectD80Mm": 0.30668863976477434,
+    "objectRmsMm": 0.10800676318409691,
+    "geometricMtfAtHalfCyclePerMmX": 0.9650497952682652,
+    "geometricMtfAtHalfCyclePerMmY": 0.9783649980358899,
+    "nominal7mmCharacterPixels": 43.77274063102049,
+    "localEquivalentD80Pixels": 1.6873821650876004,
+    "inBookEnvelope": true,
+    "relativeThroughput": 1.0
+  },
+  "diffractionReference": {
+    "wavelengthNm": 587.6,
+    "centralImageNA": [
+      0.05436514758298208,
+      0.05490145163079253
+    ],
+    "approximateImageFNumber": [
+      9.197068751387238,
+      9.10722731636417
+    ],
+    "idealCircularPupilAiryFirstZeroDiameterUm": [
+      13.186242139888945,
+      13.057432521473231
+    ],
+    "status": "reference diffraction-limit estimate only; not added as a fabricated fixed blur kernel"
+  },
+  "verification": {
+    "snellError": 5.551115123125783e-17,
+    "totalInternalReflection": true,
+    "independentRayComparisons": 5000,
+    "comparedValidRays": 99,
+    "numpyVsNumbaPositionErrorMm": 1.5631940186722204e-13,
+    "roundTripPositionErrorMm": 9.381384558082573e-15,
+    "cylinderTangentialMomentumError": 2.7755575615628914e-17,
+    "note": "Numerical and physical invariants; no commercial optical-code cross-validation"
+  }
+}

@@ -1,0 +1,13 @@
+00:01.561  blend            | Read blend: "/Users/bytedance/study-workspace/bookshelf/assets/ikea/billy-oxberg/billy-oxberg-80x30x202-white.blend"
+/Users/bytedance/study-workspace/bookshelf/scripts/render_camera_view.py:38: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if not mat.use_nodes:
+/Users/bytedance/study-workspace/bookshelf/scripts/render_camera_view.py:71: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+/Users/bytedance/study-workspace/bookshelf/scripts/render_camera_view.py:233: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world.use_nodes = True
+01:00.936  render           | Saved: '/Users/bytedance/study-workspace/bookshelf/references/ikea-billy-oxberg/camera-render/camera-raw.png'
+Info: Saved as "camera-view.blend"
+CAMERA_RENDER {"renderer": "Blender Cycles", "samples": 96, "resolution": [1920, 1080], "cameraLocalMm": [0, 280, 230], "aimLocalMm": [0, 295, 20], "horizontalFovDeg": 115, "idealVerticalFovDeg": 18, "idealAnamorphicRatio": 5.574715138175133, "cameraProjectionMaxUVError": 2.3016058745550794e-06, "mirrorCenterLocalMm": [0, 299.1461871009169, 23.531496332069093], "mirrorSizeMm": [580, 52], "cabinetGeometry": "Intact official IKEA GLB from saved reference .blend; no cutaway", "books": "27 synthetic aligned books, 220–250 mm tall; custom printed sample titles", "raw": "camera-raw.png", "digitalHorizontalFlip": "camera-corrected.png", "notSimulated": ["real cylinder refraction and optical prescription", "finite entrance pupil", "focus, depth of field and aberrations", "sensor noise and OCR"], "assumed": ["ideal anisotropic camera mapping", "external indoor soft lighting", "first-surface mirror material", "thin glass door shader replacing GLB alpha preview"]}
+Blender 5.4.0 Alpha (hash 9c4fc4363b03 built 2026-11-08 01:54:32)
+
+Blender quit

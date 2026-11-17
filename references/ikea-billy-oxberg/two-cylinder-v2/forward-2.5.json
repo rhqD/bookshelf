@@ -1,0 +1,292 @@
+{
+  "target": 2.5,
+  "variables": [
+    399.99999999999994,
+    56.04948571341721,
+    25.000000000001172,
+    -0.9499999999999998,
+    0.949998720247982,
+    7.3999999999999995,
+    9.999905145278891e-11,
+    5.252252644859273e-10,
+    0.8990040403553766
+  ],
+  "layout": {
+    "camera": [
+      0.0,
+      271.92236793523347,
+      189.75726647242908
+    ],
+    "pitch_deg": 3.046696924780895,
+    "mirror": [
+      0.0,
+      282.6455570088554,
+      20.58641999619632
+    ],
+    "tilt_deg": 37.86297060212626,
+    "mirror_size": [
+      580.0,
+      52.0
+    ],
+    "sensor_mm": [
+      6.4,
+      3.6
+    ],
+    "sensor_pixels": [
+      4000,
+      2250
+    ]
+  },
+  "film_z": -17.433829999999997,
+  "surfaces": [
+    {
+      "name": "CAM12",
+      "z": -10.033829999999998,
+      "radius": 4.5121199999999995,
+      "n_before": 1.0,
+      "n_after": 1.673,
+      "kind": "sphere",
+      "diameter": 1.9559999999999997,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM11",
+      "z": -9.751829999999998,
+      "radius": 6.711779999999999,
+      "n_before": 1.673,
+      "n_after": 1.0,
+      "kind": "sphere",
+      "diameter": 1.788,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM10",
+      "z": -9.733019999999998,
+      "radius": 4.286519999999999,
+      "n_before": 1.0,
+      "n_after": 1.805,
+      "kind": "sphere",
+      "diameter": 1.788,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM09",
+      "z": -9.4416,
+      "radius": 1.56795,
+      "n_before": 1.805,
+      "n_after": 1.517,
+      "kind": "sphere",
+      "diameter": 1.752,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM08",
+      "z": -8.783579999999999,
+      "radius": -8.83623,
+      "n_before": 1.517,
+      "n_after": 1.0,
+      "kind": "sphere",
+      "diameter": 1.788,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "STOP",
+      "z": -8.35869,
+      "radius": -0.0,
+      "n_before": 1.0,
+      "n_after": 1.0,
+      "kind": "plane",
+      "diameter": 0.8,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM06",
+      "z": -6.74184,
+      "radius": -13.160309999999999,
+      "n_before": 1.0,
+      "n_after": 1.654,
+      "kind": "sphere",
+      "diameter": 2.442,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM05",
+      "z": -6.140219999999999,
+      "radius": -2.8764600000000002,
+      "n_before": 1.654,
+      "n_after": 1.0,
+      "kind": "sphere",
+      "diameter": 2.706,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM04",
+      "z": -2.7937499999999997,
+      "radius": -2.5004699999999995,
+      "n_before": 1.0,
+      "n_after": 1.639,
+      "kind": "sphere",
+      "diameter": 4.026,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM03",
+      "z": -2.4741299999999997,
+      "radius": -22.56057,
+      "n_before": 1.639,
+      "n_after": 1.0,
+      "kind": "sphere",
+      "diameter": 5.34,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM02",
+      "z": -0.25005,
+      "radius": -3.41793,
+      "n_before": 1.0,
+      "n_after": 1.62,
+      "kind": "sphere",
+      "diameter": 6.204,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM01",
+      "z": -0.0,
+      "radius": -9.06747,
+      "n_before": 1.62,
+      "n_after": 1.0,
+      "kind": "sphere",
+      "diameter": 9.102,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "L1-1",
+      "z": 8.0,
+      "radius": -205.12820512820514,
+      "n_before": 1,
+      "n_after": 1.5168,
+      "kind": "cylinder",
+      "diameter": 0,
+      "width": 120.0,
+      "height": 16.0
+    },
+    {
+      "name": "L1-2",
+      "z": 10.5,
+      "radius": 7999.999999999974,
+      "n_before": 1.5168,
+      "n_after": 1,
+      "kind": "cylinder",
+      "diameter": 0,
+      "width": 120.0,
+      "height": 16.0
+    },
+    {
+      "name": "L2-1",
+      "z": 25.000000000001172,
+      "radius": 28.7433448706517,
+      "n_before": 1,
+      "n_after": 1.5168,
+      "kind": "cylinder",
+      "diameter": 0,
+      "width": 620.0,
+      "height": 46.0
+    },
+    {
+      "name": "L2-2",
+      "z": 33.00000000000117,
+      "radius": -1120.9610232257137,
+      "n_before": 1.5168,
+      "n_after": 1,
+      "kind": "cylinder",
+      "diameter": 0,
+      "width": 620.0,
+      "height": 46.0
+    }
+  ],
+  "parameters": {
+    "scale": 0.3,
+    "stop": 0.8,
+    "film_gap": 7.399999999999999
+  },
+  "wavelength_nm": 587.6,
+  "sensor_mm": [
+    6.4,
+    3.6
+  ],
+  "sensor_pixels": [
+    4000,
+    2250
+  ],
+  "glass": "N-BK7 d-line n=1.51680; camera indices from PBRT research prescription",
+  "sampledCentreVerticalMagnification": 3.175276586314056,
+  "fieldChiefCoverage": 0.38095238095238093,
+  "minPupilFraction": 0.0,
+  "medianGeometricRmsNativePx": 0.0,
+  "maxGeometricRmsNativePx": 21.400433449486087,
+  "allFieldRmsNativePx": [
+    0.0,
+    9.229522783548514,
+    0.0,
+    0.0,
+    0.0,
+    9.221223781037752,
+    0.0,
+    0.0,
+    21.400433449486087,
+    16.442165098081798,
+    14.1650876558601,
+    16.440045242691372,
+    21.392710652967327,
+    0.0,
+    9.304726265774617,
+    0.0,
+    0.0,
+    21.066638216001422,
+    0.0,
+    0.0,
+    9.319991430087745
+  ],
+  "allFieldChiefValid": [
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false
+  ],
+  "mechanicalResidual": 94.80844249714167,
+  "note": "new full-field finite-pupil two-singlet trial; no imposed squeeze; not a production optical module",
+  "optimization": "full-field film-to-scene finite-pupil merit; reverse-field screen is diagnostic only",
+  "forwardMerit": 338.6692339112869,
+  "evaluations": 30,
+  "calls": 998,
+  "seconds": 6.453551769256592
+}

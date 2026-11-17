@@ -1,0 +1,16 @@
+v2-forward-15-quick rows 48/675; 0.4s; lens pass 465060/3686400
+v2-forward-15-quick rows 96/675; 0.7s; lens pass 2157452/7372800
+v2-forward-15-quick rows 144/675; 0.9s; lens pass 4432298/11059200
+v2-forward-15-quick rows 192/675; 1.2s; lens pass 6805147/14745600
+v2-forward-15-quick rows 240/675; 1.5s; lens pass 9178285/18432000
+v2-forward-15-quick rows 288/675; 1.8s; lens pass 11550285/22118400
+v2-forward-15-quick rows 336/675; 2.0s; lens pass 13921849/25804800
+v2-forward-15-quick rows 384/675; 2.3s; lens pass 16292558/29491200
+v2-forward-15-quick rows 432/675; 2.6s; lens pass 18664545/33177600
+v2-forward-15-quick rows 480/675; 2.9s; lens pass 21037182/36864000
+v2-forward-15-quick rows 528/675; 3.1s; lens pass 23411072/40550400
+v2-forward-15-quick rows 576/675; 3.4s; lens pass 25704659/44236800
+v2-forward-15-quick rows 624/675; 3.7s; lens pass 27445763/47923200
+v2-forward-15-quick rows 672/675; 3.9s; lens pass 27990819/51609600
+v2-forward-15-quick rows 675/675; 3.9s; lens pass 27990819/51840000
+DONE v2-forward-15-quick [51840000, 27990819, 7529724] seconds 4.052937984466553

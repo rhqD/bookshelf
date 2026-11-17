@@ -1,0 +1,59 @@
+RADIAL [3.09184167e+02 3.85645067e-01 7.72513923e-02 2.11153296e-01] frame fit rms 0.438858198856463 VP [1999.62383596  862.02717711] edges 27
+BOUNDS -3.9560264954167743 3.9578353605671124 0.0011586943397263987 0.0026368752839863348
+{
+  "input": "references/ikea-billy-oxberg/mirror-rectification/mirror-crop.png",
+  "sha256": "5e2d7d0a03d84039827365fb5943547b78efde2c5c2771a625ba6f6cc333249f",
+  "inputPixels": [
+    4000,
+    491
+  ],
+  "outputPixels": [
+    3040,
+    1000
+  ],
+  "source": "cropped reflected PNG pixels only",
+  "algorithm": "frame plumb-line radial calibration; observed spine-edge vanishing point; projective rectification; bilinear source-pixel remapping",
+  "imageFeatures": {
+    "topFramePoints": 429,
+    "bottomFramePoints": 469,
+    "rawEdgeTracks": 29,
+    "acceptedSpineTracks": 27
+  },
+  "radial": {
+    "centreX": 1999.5,
+    "centreY": 309.1841665292242,
+    "coefficients": [
+      0.38564506730265574,
+      0.07725139226714772,
+      0.21115329604801283
+    ],
+    "frameStraightnessRmsPx": 0.438858198856463
+  },
+  "vanishingPoint": [
+    1999.623835959065,
+    862.027177108815
+  ],
+  "vanishingPointLineResidualMedianPx": 0.956845995692504,
+  "rectifiedEdgeRmsOutputPx": 0.6702607931018026,
+  "sourceRemapRoundtripMaxPx": 2.737941617577302e-12,
+  "rectifiedBounds": [
+    -3.9560264954167743,
+    3.9578353605671124,
+    0.0011586943397263987,
+    0.0026368752839863348
+  ],
+  "assumptions": [
+    "horizontal mirror long edges are straight and parallel in the undistorted image",
+    "spine side edges are parallel in the book-spine plane",
+    "symmetric radial lens distortion",
+    "output vertical scale is a display choice; true physical aspect cannot be determined from one cropped image alone"
+  ],
+  "appearance": "all output colour comes from the PNG; no clean texture, scene book outline, title text or generative restoration; observed book tops and floor are retained",
+  "rejectedInputs": [
+    "camera/lens prescription",
+    "3D book positions, heights and widths",
+    "linear sensor npz",
+    "reference book textures",
+    "known book titles"
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "target": 1.5,
+  "variables": [
+    399.9999993497522,
+    82.0983150034922,
+    25.000031624623567,
+    -0.9499999999999998,
+    -0.8167144293132936,
+    6.9917591463091435,
+    2.053750691250621e-11,
+    5.6502433109051,
+    -1.856325368599432
+  ],
+  "layout": {
+    "camera": [
+      0.0,
+      277.57261124561336,
+      189.75726647234964
+    ],
+    "pitch_deg": 0.2913675158260862,
+    "mirror": [
+      0.0,
+      282.6455570088554,
+      20.58641999619632
+    ],
+    "tilt_deg": 37.86297060212626,
+    "mirror_size": [
+      580.0,
+      52.0
+    ],
+    "sensor_mm": [
+      6.4,
+      3.6
+    ],
+    "sensor_pixels": [
+      4000,
+      2250
+    ]
+  },
+  "film_z": -17.02558914630914,
+  "surfaces": [
+    {
+      "name": "CAM12",
+      "z": -10.033829999999998,
+      "radius": 4.5121199999999995,
+      "n_before": 1.0,
+      "n_after": 1.673,
+      "kind": "sphere",
+      "diameter": 1.9559999999999997,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM11",
+      "z": -9.751829999999998,
+      "radius": 6.711779999999999,
+      "n_before": 1.673,
+      "n_after": 1.0,
+      "kind": "sphere",
+      "diameter": 1.788,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM10",
+      "z": -9.733019999999998,
+      "radius": 4.286519999999999,
+      "n_before": 1.0,
+      "n_after": 1.805,
+      "kind": "sphere",
+      "diameter": 1.788,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM09",
+      "z": -9.4416,
+      "radius": 1.56795,
+      "n_before": 1.805,
+      "n_after": 1.517,
+      "kind": "sphere",
+      "diameter": 1.752,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM08",
+      "z": -8.783579999999999,
+      "radius": -8.83623,
+      "n_before": 1.517,
+      "n_after": 1.0,
+      "kind": "sphere",
+      "diameter": 1.788,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "STOP",
+      "z": -8.35869,
+      "radius": -0.0,
+      "n_before": 1.0,
+      "n_after": 1.0,
+      "kind": "plane",
+      "diameter": 0.8,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM06",
+      "z": -6.74184,
+      "radius": -13.160309999999999,
+      "n_before": 1.0,
+      "n_after": 1.654,
+      "kind": "sphere",
+      "diameter": 2.442,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM05",
+      "z": -6.140219999999999,
+      "radius": -2.8764600000000002,
+      "n_before": 1.654,
+      "n_after": 1.0,
+      "kind": "sphere",
+      "diameter": 2.706,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM04",
+      "z": -2.7937499999999997,
+      "radius": -2.5004699999999995,
+      "n_before": 1.0,
+      "n_after": 1.639,
+      "kind": "sphere",
+      "diameter": 4.026,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM03",
+      "z": -2.4741299999999997,
+      "radius": -22.56057,
+      "n_before": 1.639,
+      "n_after": 1.0,
+      "kind": "sphere",
+      "diameter": 5.34,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM02",
+      "z": -0.25005,
+      "radius": -3.41793,
+      "n_before": 1.0,
+      "n_after": 1.62,
+      "kind": "sphere",
+      "diameter": 6.204,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "CAM01",
+      "z": -0.0,
+      "radius": -9.06747,
+      "n_before": 1.62,
+      "n_after": 1.0,
+      "kind": "sphere",
+      "diameter": 9.102,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "name": "L1-1",
+      "z": 8.0,
+      "radius": -205.12820479474476,
+      "n_before": 1,
+      "n_after": 1.5168,
+      "kind": "cylinder",
+      "diameter": 0,
+      "width": 120.0,
+      "height": 16.0
+    },
+    {
+      "name": "L1-2",
+      "z": 10.5,
+      "radius": 7999.999986995019,
+      "n_before": 1.5168,
+      "n_after": 1,
+      "kind": "cylinder",
+      "diameter": 0,
+      "width": 120.0,
+      "height": 16.0
+    },
+    {
+      "name": "L2-1",
+      "z": 25.000031624623567,
+      "radius": 447.9256861077431,
+      "n_before": 1,
+      "n_after": 1.5168,
+      "kind": "cylinder",
+      "diameter": 0,
+      "width": 620.0,
+      "height": 46.0
+    },
+    {
+      "name": "L2-2",
+      "z": 33.00003162462357,
+      "radius": -45.19054490832929,
+      "n_before": 1.5168,
+      "n_after": 1,
+      "kind": "cylinder",
+      "diameter": 0,
+      "width": 620.0,
+      "height": 46.0
+    }
+  ],
+  "parameters": {
+    "scale": 0.3,
+    "stop": 0.8,
+    "film_gap": 6.991759146309143
+  },
+  "wavelength_nm": 587.6,
+  "sensor_mm": [
+    6.4,
+    3.6
+  ],
+  "sensor_pixels": [
+    4000,
+    2250
+  ],
+  "glass": "N-BK7 d-line n=1.51680; camera indices from PBRT research prescription",
+  "sampledCentreVerticalMagnification": 1.4495322488940399,
+  "fieldChiefCoverage": 0.6666666666666666,
+  "minPupilFraction": 0.0,
+  "medianGeometricRmsNativePx": 3.6965694933488633,
+  "maxGeometricRmsNativePx": 7.3268566674184035,
+  "allFieldRmsNativePx": [
+    5.517373951572096,
+    4.409330338568774,
+    3.6965694933488633,
+    3.138686814437668,
+    3.694391709809976,
+    4.405546603194817,
+    5.510904910081473,
+    7.324047775558336,
+    5.0149445480662145,
+    3.7472180234907655,
+    2.7963280886143242,
+    3.7480908551613243,
+    5.0165044074760266,
+    7.3268566674184035,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "allFieldChiefValid": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "mechanicalResidual": 5.998397871376824,
+  "note": "new full-field finite-pupil two-singlet trial; no imposed squeeze; not a production optical module",
+  "optimization": "full-field film-to-scene finite-pupil merit; reverse-field screen is diagnostic only",
+  "forwardMerit": 57.14552888848162,
+  "evaluations": 40,
+  "calls": 328,
+  "seconds": 3.673553705215454
+}

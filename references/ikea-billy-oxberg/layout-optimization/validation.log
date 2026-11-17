@@ -1,0 +1,38 @@
+Validate before
+Validate after
+{
+  "before": {
+    "minPxPerMm": 0.44117492099031,
+    "p10PxPerMm": 0.583600278984544,
+    "medianPxPerMm": 0.8485286779482893,
+    "worstPointMm": [
+      -379.65,
+      0.0,
+      60.0
+    ],
+    "checkedSpinePoints": 14039,
+    "reachedSpinePoints": 14039,
+    "coverage": 1.0,
+    "minSensorMarginPx": 195.68187182834572,
+    "minMirrorEdgeMarginMm": 5.008388788649718,
+    "filmZMm": -16.980363187703496
+  },
+  "after": {
+    "minPxPerMm": 0.5327398433743485,
+    "p10PxPerMm": 0.7278138713799698,
+    "medianPxPerMm": 1.0974704606845425,
+    "worstPointMm": [
+      -379.65,
+      0.0,
+      60.0
+    ],
+    "checkedSpinePoints": 14039,
+    "reachedSpinePoints": 14039,
+    "coverage": 1.0,
+    "minSensorMarginPx": 12.881617923555268,
+    "minMirrorEdgeMarginMm": 1.5001171279552281,
+    "filmZMm": -16.984036811026645
+  },
+  "gainPercent": 20.754788639957546,
+  "definition": "minimum singular value of d(native sensor pixel x,y)/d(spine mm x,y), central differences 0.1mm; minimum over actual book-spine samples; counts sampling, not resolved line pairs or OCR accuracy"
+}
